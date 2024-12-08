@@ -1,0 +1,352 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+
+    <title>{% block title %}Login Page{% endblock title %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px; 
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        
+        .prepare{
+            margin: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-right: 20px;
+            margin-top: 25px;
+            color: #b2011e;
+            margin-bottom: 25px;
+            font-weight: bold;
+            left:0;
+        }
+
+        form {
+            
+            max-width: 500px;
+            margin: 30px auto ;
+            margin-bottom: 100px;
+            margin-top: 40px;
+            padding: 50px;
+            background-color: #fff;
+            border: 0px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border-left: 5px solid #910118;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #910118;
+        }
+
+        input[type="text"],
+        input[type="username"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 2px solid #910118; 
+            outline: none; 
+            margin-bottom: 20px;
+            transition: border-color 0.3s; 
+        }
+
+        input[type="text"]:focus,
+        input[type="username"]:focus,
+        input[type="password"]:focus {
+            border-color: #910118;
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 50px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 80px;
+        }
+
+        button[type="submit"] {
+            display: block;
+            margin: 0 auto; 
+            padding: 10px 50px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 40px; 
+        }
+
+        button[type="submit"]:hover {
+            background-color: #890117;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        div:last-child {
+            margin-bottom: 0;
+        }
+
+        .show-password-option {
+            display: flex;
+            align-items: center;
+            color: #000;
+            margin-top: 6px;
+        }
+
+        .show-password-option label {
+            margin-bottom: 0;
+            margin-right: 5px;
+            margin-top: 4px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 40px;
+        }
+
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+
+        .navbar-options {
+            display: flex;
+            align-items: center;
+        }
+        .about-us-option {
+            margin-top: 60px;
+            color: #4a4a4a;
+            text-decoration:none;
+            margin-right: auto;
+        }
+        .toast {
+            visibility: hidden;
+            max-width: 250px;
+            background-color: #1b1b1b;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+        }
+
+        .toast.show {
+            visibility: visible;
+            animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeOut {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
+        .google-login-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+        }
+
+        .google-login-button a {
+            display: inline-block;
+            padding: 8px 25px;
+            font-size: 16px;
+            color: #444; 
+            background-color: #f0f0f0; 
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .google-login-button a img {
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .google-login-button a:hover {
+            background-color: #e0e0e0; 
+        }
+        .show-password-option {
+            display: flex;
+            align-items: center;
+            color: #000;
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+        .google-login-button {
+            color: #000; /* White text */
+            padding: 10px 20px; /* Adjust padding as needed */
+            border-radius: 5px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Adjust font size as needed */
+            border-color:#000;
+            border-width:1px;
+            border-style: solid;
+        }
+        
+        .google-login-button:hover {
+            background-color: #f0f0f0; /* Darker Google Blue on hover */
+        }
+        
+    </style>
+</head>
+<body>
+    {% block body %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <a href="/aboutus/" class="about-us-option">About Us</a> 
+        <h1>Somaiya Stationery Management System</h1>
+    </div>
+    <form method="POST" action="/">
+        {% csrf_token %}
+        <h1 style="text-align:center; margin-top:1px;">Login Page</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input placeholder="Username" type="username" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input placeholder="Password" type="password" id="password" name="password" required>
+            <div class="show-password-option">
+                <input type="checkbox" id="showPassword">
+                <label for="showPassword">Show Password</label>
+            </div>
+        </div>
+        <div>
+            <p>Forgot Your Password?  <a href="{% url 'forget_password' %}">Reset Password</a></p>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+        <a href="{% url 'social:begin' 'google-oauth2' %}" class="google-login-button">
+            <img src="{% static 'images/google.png' %}" alt="Google Icon" style="width:20px; height:20px; padding:5px;"> Login With Google
+        </a>
+    </form>
+    <script>
+        const showPasswordCheckbox = document.getElementById('showPassword');
+        const passwordInput = document.getElementById('password');
+
+        showPasswordCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+    </script>
+    <footer> 
+        <div class="footer">
+                <div class="Logos">
+                    <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                    <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                    <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                    <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                    <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+        
+                </div>
+        <div class="prepare">
+        
+            <p >
+                <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+            </p>
+        </div>
+        </div>
+    </footer>
+    {% endblock body %}
+    <div class="toast" id="toastMessage"></div>
+
+    <script>
+        
+        function showToast(message, duration) {
+            const toast = document.getElementById('toastMessage');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(function() {
+                toast.classList.remove('show');
+            }, duration);
+        }
+
+        {% if messages %}
+        {% for message in messages %}
+            showToast("{{ message }}", 3000); 
+        {% endfor %}
+        {% endif %}
+    </script>
+</body>
+</html>

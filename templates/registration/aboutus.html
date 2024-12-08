@@ -1,0 +1,277 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <title>{% block title %}About Us{% endblock title %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 40px;
+        }
+        .container {
+            max-width: 1300px;
+            margin: 5px auto 0;
+            padding: 20px;
+            background-color: #fff;
+            border: 0px solid #ccc;
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+        }
+        .btn {
+            display: block;
+            justify-content: center;
+            width: 5%;
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-left: 0px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .btn-primary {
+            background-color: #910118;
+        }
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px;
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        .prepare{
+            margin: 10px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #b2011e;
+            font-weight: bold;
+            margin-right: 100px;
+            margin-top: 30px;
+            margin-bottom:25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #910118;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        tr:hover {
+            background-color: #fafafa;
+        }
+
+        .fulfilled-checkbox {
+            text-align: center;
+            color: #910118;
+        }
+
+        .fulfilled-checkbox input[type="checkbox"] {
+            margin: 0;
+            colour: #910118;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+        .scroll-to-top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #b2011e;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    
+        .scroll-to-top-button span {
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+    {% block body %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <button class="btn btn-primary" onclick="window.location.href='/'">Back</button>
+    </div>
+    <div class="container">
+        <div style="padding: 40px; margin-top: 0px; margin-bottom: 0px;">
+            <h2 style="color: #910118; font-size: 40px;">Artificial Intelligence and Data Science | B.Tech AI-DS</h2>
+            <p style="color: #4a4a4a; font-size: 18px;">
+                Artificial Intelligence and Data Science is an interdisciplinary branch of science, engineering and technology creating a complete ecosystem and a paradigm shift in virtually every sector of the technical industry, academics and research.
+                Artificial Intelligence and Data Science is the future of technology which is changing the world at a very high pace. The basic objectives of this course are to train students with the next age of Intelligence and analytics generated by machines, influencing nearly every facet of our lives to help improve efficiencies and augment human capabilities, influencing consumer products with significant breakthroughs in healthcare, manufacturing, finance, and retail industries.
+                With the tremendous amount of data generated every day and the computing power available, Data Science plays an important role in helping every business organization in identifying business trends and changes through advanced Big Data Analytics with a variety of techniques and tools to interpret and predict business results and future from multiple data sources through statistical analysis, data aggregation, and data mining.
+                Artificial Intelligence and Data Science undergraduate engineering course has been started by the institute from the academic year July 2020 with the intake capacity of 60 seats.
+            </p>
+            <p style='font-size: 18px; color: #4a4a4a;'><br> Visit Our College Website: <a href="https://kjsit.somaiya.edu.in/en/programme/be-in-artificial-intelligence-and-data-science" style="text-decoration: none; color: #910118;font-weight: bold;"  target="_blank">click here</a></p>
+            <br><h2 style="color: #000; font-size: 25px;">Vision Of The Department</h2>
+            <p style="color: #4a4a4a; font-size: 18px;">
+                To be universally accepted as a synonym of quality, excellence and commitment in the field of engineering education by nurturing talent and transforming young minds to realise their potential and become future ready engineers.
+            </p><br>
+            <h2 style="color: #000; font-size: 25px;">Mission Of The Department</h2>
+            <p style="color: #4a4a4a; font-size: 18px;">
+                <ul style="list-style-type: disc; color: #4a4a4a; font-size: 18px; margin: 10px 0;">
+                    <li>To provide students with a thorough knowledge of engineering to refine their professional skills.</li>
+                    <li>To nurture creativity and innovation while encouraging multidisciplinary interaction.</li>
+                    <li>To train students to be industry ready and capable of working effectively as an individual and in a team.</li>
+                    <li>To inculcate ethical behaviour, responsibility and commitment among students.</li>
+                </ul>
+            </p><br>
+            <h2 style="color: #000; font-size: 25px;">Objective Of The Department</h2>
+            <p style="color: #4a4a4a; font-size: 18px;">
+                <ul style="list-style-type: disc; color: #4a4a4a; font-size: 18px; margin: 10px 0;">
+                    <li>To provide students with a thorough knowledge of engineering to refine their professional skills.</li>
+                    <li>To develop technical and interpersonal skills so that the students translate knowledge into action contributing to the benefit of the society.</li>
+                    <li>To enhance the learning experience of students by honing versatility through diverse activities</li>
+                </ul>
+            </p><br>
+            <h2 style="color: #000; font-size: 25px;">What Is Somaiya Stationery Management System? </h2>
+            <p style="color: #4a4a4a; font-size: 18px;">
+                The Somaiya stationery Management System (SSMS) is a versatile platform designed to streamline daily operations within the department. This intuitive system enables seamless interaction between faculty and administration for efficient stationery management. With an easy-to-use interface, faculty members can submit direct requests for required stationery items, eliminating the need for intermediary communication. The admin can swiftly review and fulfill these requests, ensuring a smooth process without involving third parties. Moreover, the admin can oversee the ordered stationery, maintaining a comprehensive record of available quantities. This tally is dynamically updated upon allocation to faculty. Notably, all inputs from the admin, including stationery and faculty details, are presented through user-friendly dropdowns for effortless assignment. The SSMS empowers both faculty and administration, facilitating better resource management and generating insightful reports based on selected parameters. In essence, the system offers a holistic solution with enhanced accessibility and effectiveness, enhancing the stationery management experience.
+            </p><br>
+            <h2 style="color: #000; font-size: 25px;">Main Features</h2>
+            <p style="color: #4a4a4a; font-size: 18px;">
+                <ul style="list-style-type: disc; color: #4a4a4a; font-size: 18px; margin: 10px 0;">
+                    <li>Direct Faculty-Admin Interaction for stationery Requests</li>
+                    <li>Efficient Request Processing and Fulfillment</li>
+                    <li>Real-time Stationery Inventory Tracking</li>
+                    <li>Automatic Quantity Update upon Allocation</li>
+                    <li>User-Friendly Dropdown Interface for Admin Inputs</li>
+                    <li>Customizable Reports Based on Admin-Selected Parameters</li>
+                </ul>
+            </p><br>
+            <p>
+                <b>
+                    <span style="color: black;">Prepared By:</span><br><span style="color: #910118;"> Department of Artificial Intelligence and Data Science</span><br>
+                    <br><span style="color: black;">Guided By:</span><br> <span style="color: #910118;"> Dr. Milind Nemade,<br> Prof. Vidya Sagvekar</span><br>
+                    <br><span style="color: black;">Developed By:</span><br>
+                    <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" style="text-decoration: none; color: #910118;" target="_blank">Tanushree Hajare - tanushree.h@somaiya.edu</a><br>
+                </b>
+            </p><br>
+        
+        </div>     
+    </div>
+    
+    <div class="scroll-to-top-button" onclick="scrollToTop()">
+        <span>▲</span>
+    </div>
+    <footer> 
+        <div class="footer">
+                <div class="Logos">
+                    <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                    <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                    <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                    <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                    <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+        
+                </div>
+        <div class="prepare">
+        
+            <p >
+                <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+            </p>
+        </div>
+        </div>
+    </footer>
+    {% endblock body %}
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8148 @@
+[
+{
+    "model": "stationaryapp.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$nvccPS8yFsGSU8oLQVh8tQ$03iIgEzpCL5NB622bs0QkGLK7jBtPQjTziy4jZv+R3k=",
+        "last_login": "2024-06-17T14:21:05.635Z",
+        "is_superuser": true,
+        "username": "bharati",
+        "first_name": "Bharati",
+        "last_name": "Sansare",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-08-26T15:09:46Z",
+        "role": "admin",
+        "branch": "AI-DS",
+        "email": "bharati@somaiya.edu",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "stationaryapp.customuser",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$AqbcJSsYouSrUxhl1xDTUL$Wsu+9D8jTRXEdXBpqk1pm1ZgtwWrf56r3QH77hqDaLY=",
+        "last_login": "2024-07-21T15:04:14.710Z",
+        "is_superuser": false,
+        "username": "vsagvekar",
+        "first_name": "Vidya",
+        "last_name": "Sagvekar",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-16T05:46:04.902Z",
+        "role": "faculty",
+        "branch": "AI-DS",
+        "email": "vsagvekar@somaiya.edu",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "stationaryapp.customuser",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$XHy8GpQfNQrMsWQEs7FGZG$2wwt478BfCMWHPpS4uN6OD3Dd9uW/L30ZEYCHJRNI4c=",
+        "last_login": "2024-07-22T10:17:33.356Z",
+        "is_superuser": true,
+        "username": "tanushree.h",
+        "first_name": "Tanushree",
+        "last_name": "Hajare",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-02-17T15:10:29.791Z",
+        "role": "admin",
+        "branch": "AI-DS",
+        "email": "tanushree.h@somaiya.edu",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 1,
+    "fields": {
+        "facultys_name": "Dr. M.U.Nemade",
+        "faculty_email": "mnemade@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 2,
+    "fields": {
+        "facultys_name": "Dr. Vaishali Wadhe",
+        "faculty_email": "vwadhe@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 3,
+    "fields": {
+        "facultys_name": "Prof.Ghanshyam Phadke",
+        "faculty_email": "ghanashyam.p@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 4,
+    "fields": {
+        "facultys_name": "Prof.Devanand Bathe",
+        "faculty_email": "devanandkb@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 5,
+    "fields": {
+        "facultys_name": "Prof. Pankaj Deshmukh",
+        "faculty_email": "pankaj@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 6,
+    "fields": {
+        "facultys_name": "Prof. Sheetal Jagtap",
+        "faculty_email": "sheetaljagtap@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 7,
+    "fields": {
+        "facultys_name": "Prof. Medha Asurlekar",
+        "faculty_email": "medha@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 8,
+    "fields": {
+        "facultys_name": "Prof. Sejal Shah",
+        "faculty_email": "sshah@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 9,
+    "fields": {
+        "facultys_name": "Prof. Vidya Sagvekar",
+        "faculty_email": "vsagvekar@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 10,
+    "fields": {
+        "facultys_name": "Prof. Sarika Mane",
+        "faculty_email": "sarika@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 11,
+    "fields": {
+        "facultys_name": "Prof.Swati Nandusekar",
+        "faculty_email": "swati.n@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 12,
+    "fields": {
+        "facultys_name": "Mr. Sudhir Kasar",
+        "faculty_email": "skasar@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 13,
+    "fields": {
+        "facultys_name": "Mrs. Kavita Pashte",
+        "faculty_email": "kpashte@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 14,
+    "fields": {
+        "facultys_name": "Mr. Sachin Dhale",
+        "faculty_email": "sdhale@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 15,
+    "fields": {
+        "facultys_name": "Mrs. Bharati Sansare",
+        "faculty_email": "bharati@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 16,
+    "fields": {
+        "facultys_name": "Mr. Prabhu Jadhav",
+        "faculty_email": "prabhu@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 17,
+    "fields": {
+        "facultys_name": "Mr. Suresh Ubale",
+        "faculty_email": "suresh.ubale@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 18,
+    "fields": {
+        "facultys_name": "Prof.Ganesh wadmare",
+        "faculty_email": "gwadmare@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.faculty",
+    "pk": 21,
+    "fields": {
+        "facultys_name": "Prof. Vrunda Ullas",
+        "faculty_email": "vulhas@somaiya.edu"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 10,
+    "fields": {
+        "stationary_name": "Long register (72 pages)",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "75.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 11,
+    "fields": {
+        "stationary_name": "Long register (144 page)",
+        "issued_quantity": 7,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "100.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 12,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream) _white",
+        "issued_quantity": 16,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "150.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 16,
+    "fields": {
+        "stationary_name": "Four flaps file",
+        "issued_quantity": 8,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 17,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream) pink",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "160.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 18,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream)_Yellow",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "160.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 19,
+    "fields": {
+        "stationary_name": "Self adhesive labels A4 size",
+        "issued_quantity": 200,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 20,
+    "fields": {
+        "stationary_name": "Self adhesive labels A4 - 12",
+        "issued_quantity": 80,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 21,
+    "fields": {
+        "stationary_name": "OHP sheets (transparency)",
+        "issued_quantity": 400,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 22,
+    "fields": {
+        "stationary_name": "File Divider",
+        "issued_quantity": 278,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 23,
+    "fields": {
+        "stationary_name": "Yellow Tag strip (paste it)",
+        "issued_quantity": 12,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 24,
+    "fields": {
+        "stationary_name": "Yellow Tag full size (paste it)",
+        "issued_quantity": 11,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 25,
+    "fields": {
+        "stationary_name": "Box File",
+        "issued_quantity": 29,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "50.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 26,
+    "fields": {
+        "stationary_name": "Spring File",
+        "issued_quantity": 17,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "15.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 27,
+    "fields": {
+        "stationary_name": "Ring file",
+        "issued_quantity": 76,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "45.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 28,
+    "fields": {
+        "stationary_name": "Plastic Patti file (HSN Code3926)",
+        "issued_quantity": 29,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 30,
+    "fields": {
+        "stationary_name": "Plastic Document Folder",
+        "issued_quantity": 26,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 32,
+    "fields": {
+        "stationary_name": "Punch Folder",
+        "issued_quantity": 24,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 33,
+    "fields": {
+        "stationary_name": "White board marker Ink(blue )",
+        "issued_quantity": 12,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 34,
+    "fields": {
+        "stationary_name": "White board marker pen (black)",
+        "issued_quantity": 13,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 35,
+    "fields": {
+        "stationary_name": "White board marker Ink(Red)",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 36,
+    "fields": {
+        "stationary_name": "White board marker pen (Green)",
+        "issued_quantity": 7,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 37,
+    "fields": {
+        "stationary_name": "permanent Marker pointed",
+        "issued_quantity": 10,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 38,
+    "fields": {
+        "stationary_name": "permanent Marker",
+        "issued_quantity": 17,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 39,
+    "fields": {
+        "stationary_name": "Sketch pen(1 packet)",
+        "issued_quantity": 2,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 40,
+    "fields": {
+        "stationary_name": "Ball Pen (Red)",
+        "issued_quantity": 39,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "10.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 41,
+    "fields": {
+        "stationary_name": "Ball Pen (Black)",
+        "issued_quantity": 34,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "10.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 42,
+    "fields": {
+        "stationary_name": "Ball Pen (Blue)",
+        "issued_quantity": 33,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "10.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 43,
+    "fields": {
+        "stationary_name": "Plastic File",
+        "issued_quantity": 34,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 44,
+    "fields": {
+        "stationary_name": "Lead Pencil 0.5mm",
+        "issued_quantity": 15,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 45,
+    "fields": {
+        "stationary_name": "Pencil(Natraj)",
+        "issued_quantity": 27,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 46,
+    "fields": {
+        "stationary_name": "Pencil Lead Box (0.5mm 2B)",
+        "issued_quantity": 14,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 47,
+    "fields": {
+        "stationary_name": "Eraser",
+        "issued_quantity": 10,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 48,
+    "fields": {
+        "stationary_name": "Steel ruler",
+        "issued_quantity": 2,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 49,
+    "fields": {
+        "stationary_name": "Plastic rular",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 50,
+    "fields": {
+        "stationary_name": "Stapler (Kangaroo)Small",
+        "issued_quantity": 2,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 51,
+    "fields": {
+        "stationary_name": "Punching Machine (Small)",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "80.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 52,
+    "fields": {
+        "stationary_name": "Gum Bottle(Camlin-200ml)",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 53,
+    "fields": {
+        "stationary_name": "Fevicol Bottle",
+        "issued_quantity": 4,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 54,
+    "fields": {
+        "stationary_name": "White board marker pen(blue )",
+        "issued_quantity": 10,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 55,
+    "fields": {
+        "stationary_name": "White board marker pen(Red)",
+        "issued_quantity": 13,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 56,
+    "fields": {
+        "stationary_name": "White board marker Ink ( black)",
+        "issued_quantity": 8,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 57,
+    "fields": {
+        "stationary_name": "White board marker Ink(Green)",
+        "issued_quantity": 9,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 58,
+    "fields": {
+        "stationary_name": "The Wilayat Smooth Correction Whitener Pen",
+        "issued_quantity": 11,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 59,
+    "fields": {
+        "stationary_name": "Correction Tape",
+        "issued_quantity": 7,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 60,
+    "fields": {
+        "stationary_name": "Cello tape (1/2inch)",
+        "issued_quantity": 14,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "18.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 61,
+    "fields": {
+        "stationary_name": "Cello tape (1 inch)",
+        "issued_quantity": 13,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "20.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 62,
+    "fields": {
+        "stationary_name": "Cello tape (2 inch)",
+        "issued_quantity": 12,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 63,
+    "fields": {
+        "stationary_name": "Foam Tape",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 64,
+    "fields": {
+        "stationary_name": "25 mm Acrylic Adhesive Clear Double Sided Tape 25 Mts",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 65,
+    "fields": {
+        "stationary_name": "Paper pin (Box) small",
+        "issued_quantity": 17,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "20.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 66,
+    "fields": {
+        "stationary_name": "Stapler pins small",
+        "issued_quantity": 21,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 67,
+    "fields": {
+        "stationary_name": "Stapler pins Big",
+        "issued_quantity": 10,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 68,
+    "fields": {
+        "stationary_name": "U Pin Box (Big)",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 69,
+    "fields": {
+        "stationary_name": "Drawing Pin(Plastic coating)",
+        "issued_quantity": 9,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "20.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 70,
+    "fields": {
+        "stationary_name": "Binder clip 51 mm",
+        "issued_quantity": 22,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "60.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 71,
+    "fields": {
+        "stationary_name": "Binder clip 32mm",
+        "issued_quantity": 12,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "45.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 72,
+    "fields": {
+        "stationary_name": "Pencil Sharpener",
+        "issued_quantity": 6,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "5.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 73,
+    "fields": {
+        "stationary_name": "Paper Cutter",
+        "issued_quantity": 2,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "25.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 74,
+    "fields": {
+        "stationary_name": "Lock & Key",
+        "issued_quantity": 13,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 75,
+    "fields": {
+        "stationary_name": "Cloth Duster(white)",
+        "issued_quantity": 11,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 76,
+    "fields": {
+        "stationary_name": "Cloth Duster (Yellow)",
+        "issued_quantity": 20,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 77,
+    "fields": {
+        "stationary_name": "Room freshener Herbels",
+        "issued_quantity": 4,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 78,
+    "fields": {
+        "stationary_name": "CD recordable (Moserbear)",
+        "issued_quantity": 50,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 79,
+    "fields": {
+        "stationary_name": "DVD recordable(Moserbear)",
+        "issued_quantity": 25,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 80,
+    "fields": {
+        "stationary_name": "DVD recordable 8GB",
+        "issued_quantity": 4,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 81,
+    "fields": {
+        "stationary_name": "Napthelin Balls (Damber Goli)",
+        "issued_quantity": 14,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 82,
+    "fields": {
+        "stationary_name": "Hook(vacuum holder)",
+        "issued_quantity": 8,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 83,
+    "fields": {
+        "stationary_name": "Chalk box(white)",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "50.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 84,
+    "fields": {
+        "stationary_name": "Chalk box(colour)",
+        "issued_quantity": 7,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "75.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 85,
+    "fields": {
+        "stationary_name": "Chalk Duster(Green board)",
+        "issued_quantity": 8,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 86,
+    "fields": {
+        "stationary_name": "White board Duster(Magnatic)",
+        "issued_quantity": 3,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 87,
+    "fields": {
+        "stationary_name": "Highlights diff colour",
+        "issued_quantity": 13,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 88,
+    "fields": {
+        "stationary_name": "U Pin Box (Magnetic)",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 89,
+    "fields": {
+        "stationary_name": "Cell AA",
+        "issued_quantity": 17,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 90,
+    "fields": {
+        "stationary_name": "Cell AAA",
+        "issued_quantity": 14,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 91,
+    "fields": {
+        "stationary_name": "Colin spray",
+        "issued_quantity": 3,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 92,
+    "fields": {
+        "stationary_name": "Paper Weight",
+        "issued_quantity": 3,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 93,
+    "fields": {
+        "stationary_name": "book stand(supporter)",
+        "issued_quantity": 32,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 94,
+    "fields": {
+        "stationary_name": "mouse pad",
+        "issued_quantity": 14,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 95,
+    "fields": {
+        "stationary_name": "Plastic File Folder",
+        "issued_quantity": 14,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 96,
+    "fields": {
+        "stationary_name": "zip file 1",
+        "issued_quantity": 15,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 97,
+    "fields": {
+        "stationary_name": "sticker",
+        "issued_quantity": 83,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 98,
+    "fields": {
+        "stationary_name": "writing pad",
+        "issued_quantity": 7,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 99,
+    "fields": {
+        "stationary_name": "keyboard dell",
+        "issued_quantity": 10,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 100,
+    "fields": {
+        "stationary_name": "mouse dell",
+        "issued_quantity": 3,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 101,
+    "fields": {
+        "stationary_name": "Consumable register",
+        "issued_quantity": 3,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 102,
+    "fields": {
+        "stationary_name": "Plastic tag",
+        "issued_quantity": 6,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 103,
+    "fields": {
+        "stationary_name": "conference pad",
+        "issued_quantity": 7,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 104,
+    "fields": {
+        "stationary_name": "Hole Guard",
+        "issued_quantity": 45,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "20.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 105,
+    "fields": {
+        "stationary_name": "keyboard circle",
+        "issued_quantity": 3,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 106,
+    "fields": {
+        "stationary_name": "6 square Register",
+        "issued_quantity": 2,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 107,
+    "fields": {
+        "stationary_name": "A5 size envelope",
+        "issued_quantity": 100,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 108,
+    "fields": {
+        "stationary_name": "A4 size white envelope",
+        "issued_quantity": 72,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 109,
+    "fields": {
+        "stationary_name": "White A4 Size Envelope Ideal For Thickness - 100 gsm | 10 ├ù 12 inch (Pack of 50)",
+        "issued_quantity": 22,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 110,
+    "fields": {
+        "stationary_name": "A3 size 16├ù12 inch cloth line cover set of 100pcs, courier envelopesr(1pkt)",
+        "issued_quantity": 72,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 113,
+    "fields": {
+        "stationary_name": "Attendance register",
+        "issued_quantity": 10,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 114,
+    "fields": {
+        "stationary_name": "Warli Momento",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 115,
+    "fields": {
+        "stationary_name": "Nylon Cable Ties",
+        "issued_quantity": 100,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 116,
+    "fields": {
+        "stationary_name": "Laser Remote Pointer",
+        "issued_quantity": 1,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "1.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 120,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream) _white",
+        "issued_quantity": 20,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "140.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 122,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream) _white",
+        "issued_quantity": 25,
+        "issued_date": "2023-02-07",
+        "issued_from": "Perfect solution & Stationery_INV  PS002010/22-23",
+        "cost_per_item": "232.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 123,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream) _white",
+        "issued_quantity": 15,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "232.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 125,
+    "fields": {
+        "stationary_name": "Box File",
+        "issued_quantity": 24,
+        "issued_date": "2023-02-07",
+        "issued_from": "Perfect solution & Stationery_INV  PS002010/22-23",
+        "cost_per_item": "55.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 127,
+    "fields": {
+        "stationary_name": "Box File",
+        "issued_quantity": 30,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "48.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 128,
+    "fields": {
+        "stationary_name": "Box File",
+        "issued_quantity": 15,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "48.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 129,
+    "fields": {
+        "stationary_name": "File Divider",
+        "issued_quantity": 300,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "95.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 130,
+    "fields": {
+        "stationary_name": "Ring file",
+        "issued_quantity": 24,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "45.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 131,
+    "fields": {
+        "stationary_name": "Yellow Tag strip (paste it)",
+        "issued_quantity": 6,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "50.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 132,
+    "fields": {
+        "stationary_name": "Drawing Pin(Plastic coating)",
+        "issued_quantity": 2,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "20.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 133,
+    "fields": {
+        "stationary_name": "Cloth Duster(white)",
+        "issued_quantity": 4,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "24.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 134,
+    "fields": {
+        "stationary_name": "Cloth Duster (Yellow)",
+        "issued_quantity": 6,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "18.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 135,
+    "fields": {
+        "stationary_name": "Presenter_Pointer",
+        "issued_quantity": 1,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "3200.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 136,
+    "fields": {
+        "stationary_name": "Envelope 12*10",
+        "issued_quantity": 30,
+        "issued_date": "2021-02-01",
+        "issued_from": "Perfect solution & Stationery_INV S0000362",
+        "cost_per_item": "18.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 137,
+    "fields": {
+        "stationary_name": "Ring file",
+        "issued_quantity": 15,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "48.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 138,
+    "fields": {
+        "stationary_name": "Rulled Registers 2Q",
+        "issued_quantity": 6,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "42.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 139,
+    "fields": {
+        "stationary_name": "Plastic File",
+        "issued_quantity": 10,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "35.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 140,
+    "fields": {
+        "stationary_name": "Ball Pen (Red)",
+        "issued_quantity": 20,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "10.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 141,
+    "fields": {
+        "stationary_name": "Ball Pen (Blue)",
+        "issued_quantity": 10,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "5.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 142,
+    "fields": {
+        "stationary_name": "Ball Pen (Black)",
+        "issued_quantity": 10,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "5.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 143,
+    "fields": {
+        "stationary_name": "Fevicol Bottle",
+        "issued_quantity": 2,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "42.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 144,
+    "fields": {
+        "stationary_name": "White board marker pen (black)",
+        "issued_quantity": 5,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "25.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 145,
+    "fields": {
+        "stationary_name": "White board marker pen (Red)",
+        "issued_quantity": 5,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "25.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 146,
+    "fields": {
+        "stationary_name": "White board marker pen(blue )",
+        "issued_quantity": 5,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "25.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 147,
+    "fields": {
+        "stationary_name": "Cell AA",
+        "issued_quantity": 20,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "15.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 148,
+    "fields": {
+        "stationary_name": "Cell AAA",
+        "issued_quantity": 20,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "15.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 149,
+    "fields": {
+        "stationary_name": "Yellow Tag strip (paste it)",
+        "issued_quantity": 6,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "50.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 150,
+    "fields": {
+        "stationary_name": "Drawing Pin(Plastic coating)",
+        "issued_quantity": 3,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "24.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 151,
+    "fields": {
+        "stationary_name": "Highlights diff colour",
+        "issued_quantity": 10,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "8.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 152,
+    "fields": {
+        "stationary_name": "White INK pen",
+        "issued_quantity": 10,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "22.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 153,
+    "fields": {
+        "stationary_name": "Correction Tape",
+        "issued_quantity": 2,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "440.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 154,
+    "fields": {
+        "stationary_name": "Foam Tape",
+        "issued_quantity": 2,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "25.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 155,
+    "fields": {
+        "stationary_name": "permanent Marker",
+        "issued_quantity": 8,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "16.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 156,
+    "fields": {
+        "stationary_name": "White board Duster(Magnatic)",
+        "issued_quantity": 4,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "80.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 157,
+    "fields": {
+        "stationary_name": "Room freshener Herbels",
+        "issued_quantity": 7,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001194/22-23",
+        "cost_per_item": "95.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 158,
+    "fields": {
+        "stationary_name": "Answer sheet",
+        "issued_quantity": 500,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001192/22-23",
+        "cost_per_item": "3.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 159,
+    "fields": {
+        "stationary_name": "Box File",
+        "issued_quantity": 20,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "60.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 160,
+    "fields": {
+        "stationary_name": "Ring file",
+        "issued_quantity": 25,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "48.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 161,
+    "fields": {
+        "stationary_name": "Ball Pen (Black)",
+        "issued_quantity": 10,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "4.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 162,
+    "fields": {
+        "stationary_name": "Ball Pen (Blue)",
+        "issued_quantity": 10,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "4.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 163,
+    "fields": {
+        "stationary_name": "Ball Pen (Red)",
+        "issued_quantity": 10,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "4.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 164,
+    "fields": {
+        "stationary_name": "Fevicol Bottle",
+        "issued_quantity": 2,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "19.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 165,
+    "fields": {
+        "stationary_name": "Cell AA",
+        "issued_quantity": 10,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "19.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 166,
+    "fields": {
+        "stationary_name": "Yellow Tag strip (paste it)",
+        "issued_quantity": 6,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "45.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 167,
+    "fields": {
+        "stationary_name": "Drawing Pin(Plastic coating)",
+        "issued_quantity": 3,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "22.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 168,
+    "fields": {
+        "stationary_name": "A4 size printing paper(ream) _white",
+        "issued_quantity": 20,
+        "issued_date": "2022-04-08",
+        "issued_from": "Perfect solution & Stationery_INV S000042/22-23",
+        "cost_per_item": "480.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 169,
+    "fields": {
+        "stationary_name": "Dead Stock",
+        "issued_quantity": 10,
+        "issued_date": "2022-04-15",
+        "issued_from": "Perfect solution & Stationery_INV S000094/22-23",
+        "cost_per_item": "840.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 170,
+    "fields": {
+        "stationary_name": "White Board Magnetic",
+        "issued_quantity": 6,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001193/22-23",
+        "cost_per_item": "2560.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 171,
+    "fields": {
+        "stationary_name": "Projector Screen",
+        "issued_quantity": 3,
+        "issued_date": "2022-10-15",
+        "issued_from": "Perfect solution & Stationery_INV  PS001193/22-23",
+        "cost_per_item": "4650.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 172,
+    "fields": {
+        "stationary_name": "book stand(supporter)",
+        "issued_quantity": 48,
+        "issued_date": "2022-10-16",
+        "issued_from": "Perfect solution & Stationery_INV  PS001202/22-23",
+        "cost_per_item": "345.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 173,
+    "fields": {
+        "stationary_name": "Scissor",
+        "issued_quantity": 5,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening Stock",
+        "cost_per_item": "60.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 177,
+    "fields": {
+        "stationary_name": "Spring File",
+        "issued_quantity": 30,
+        "issued_date": "2023-01-01",
+        "issued_from": "RANDOM QTY",
+        "cost_per_item": "30.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 179,
+    "fields": {
+        "stationary_name": "mouse dell",
+        "issued_quantity": 10,
+        "issued_date": "2024-04-05",
+        "issued_from": "RANDOM QTY",
+        "cost_per_item": "260.00"
+    }
+},
+{
+    "model": "stationaryapp.stationary",
+    "pk": 180,
+    "fields": {
+        "stationary_name": "History card(Log sheet)",
+        "issued_quantity": 500,
+        "issued_date": "2024-01-01",
+        "issued_from": "opening stock",
+        "cost_per_item": "10.00"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 14,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-02",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 15,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 22,
+        "assigned_quantity": 10,
+        "assignment_date": "2024-01-02",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 16,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-02",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 17,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 18,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 19,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 68,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 20,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 76,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 21,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 75,
+        "assigned_quantity": 4,
+        "assignment_date": "2024-01-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 22,
+    "fields": {
+        "faculty_name": "Prof. Sheetal Jagtap",
+        "stationary": 26,
+        "assigned_quantity": 4,
+        "assignment_date": "2024-01-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 23,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 24,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 26,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 49,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 50,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 86,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 51,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 34,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 52,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 53,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 27,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 54,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 89,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 55,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 56,
+    "fields": {
+        "faculty_name": "Prof.Ganesh wadmare",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 57,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 58,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 59,
+    "fields": {
+        "faculty_name": "Prof.Ganesh wadmare",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 60,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 76,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 61,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 27,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 62,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 63,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 64,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 65,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 66,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 52,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 67,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 68,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 69,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 70,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 32,
+        "assigned_quantity": 3,
+        "assignment_date": "2024-01-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 71,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 72,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 41,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 73,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 74,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 75,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 76,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 77,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 22,
+        "assigned_quantity": 25,
+        "assignment_date": "2024-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 78,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 79,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 42,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 80,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 81,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 76,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 82,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 81,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-01-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 83,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 34,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-24",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 84,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 55,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-24",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 85,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 26,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-25",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 86,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-25",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 87,
+    "fields": {
+        "faculty_name": "Prof. Sejal Shah",
+        "stationary": 30,
+        "assigned_quantity": 26,
+        "assignment_date": "2024-01-25",
+        "notes": "Hackathon 2024"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 88,
+    "fields": {
+        "faculty_name": "Prof. Sejal Shah",
+        "stationary": 32,
+        "assigned_quantity": 10,
+        "assignment_date": "2024-01-25",
+        "notes": "Hackathon 2024"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 89,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 27,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-25",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 90,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 68,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 91,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 92,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 25,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-02-02",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 93,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 89,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-02-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 94,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 95,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 90,
+        "assigned_quantity": 2,
+        "assignment_date": "2024-02-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 96,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 39,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 97,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 98,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 50,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-01-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 99,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 113,
+        "assigned_quantity": 3,
+        "assignment_date": "2024-01-31",
+        "notes": "BEE lab,401A & 401B"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 100,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 115,
+        "assigned_quantity": 41,
+        "assignment_date": "2024-01-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 101,
+    "fields": {
+        "faculty_name": "Prof. Sejal Shah",
+        "stationary": 23,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 104,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 93,
+        "assigned_quantity": 10,
+        "assignment_date": "2024-02-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 105,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 12,
+        "assigned_quantity": 3,
+        "assignment_date": "2024-02-08",
+        "notes": "for Test 1(even sem AY 2023-24)"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 106,
+    "fields": {
+        "faculty_name": "Prof.Devanand Bathe",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 107,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 41,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 108,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 109,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 110,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 22,
+        "assigned_quantity": 15,
+        "assignment_date": "2024-02-16",
+        "notes": "IIIC file (Yuvraj sir)"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 111,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 85,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 112,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 113,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 86,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 114,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 86,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 115,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 34,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 116,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-23",
+        "notes": "new pen not writing properly."
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 117,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 33,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-02-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 119,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-02",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 120,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 121,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 122,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 51,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 123,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 124,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 125,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 19,
+        "assigned_quantity": 5,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 126,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-24",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 127,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 22,
+        "assigned_quantity": 25,
+        "assignment_date": "2023-02-24",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 128,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 22,
+        "assigned_quantity": 20,
+        "assignment_date": "2023-02-27",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 129,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 27,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 130,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 26,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 131,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 145,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-01-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 132,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 35,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 133,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 32,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 134,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 27,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 135,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 26,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-01-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 136,
+    "fields": {
+        "faculty_name": "Prof.Ganesh wadmare",
+        "stationary": 40,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-01-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 137,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 145,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-02-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 138,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 54,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-02-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 139,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 140,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 141,
+    "fields": {
+        "faculty_name": "Prof. Sheetal Jagtap",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 142,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 143,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 144,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 145,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 27,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 146,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 26,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 147,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 26,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 148,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 149,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 150,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 151,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 152,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 27,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 153,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 41,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 154,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 155,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 51,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 156,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 72,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 157,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 45,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 158,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 47,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 159,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 160,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 161,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 50,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-10-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 162,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-10-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 163,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 40,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-10-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 164,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-10-26",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 165,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 89,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-02-14",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 166,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 12,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-02-16",
+        "notes": "Test 1 Even sem 2022-23"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 167,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 42,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-02-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 168,
+    "fields": {
+        "faculty_name": "Prof.Ganesh wadmare",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 169,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-22",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 170,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 27,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 171,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 172,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 173,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-06-01",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 173,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 19,
+        "assigned_quantity": 5,
+        "assignment_date": "2023-06-01",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 174,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 19,
+        "assigned_quantity": 6,
+        "assignment_date": "2023-06-02",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 175,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 19,
+        "assigned_quantity": 20,
+        "assignment_date": "2023-06-07",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 176,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-06-16",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 177,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 26,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-06-22",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 178,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 72,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-06-22",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 179,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 45,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-06-22",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 180,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 47,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-06-22",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 181,
+    "fields": {
+        "faculty_name": "Mrs. Bharati Sansare",
+        "stationary": 69,
+        "assigned_quantity": 6,
+        "assignment_date": "2023-06-28",
+        "notes": "for AIDS notice board decoration"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 182,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 27,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 183,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 42,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 184,
+    "fields": {
+        "faculty_name": "Prof. Sheetal Jagtap",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 185,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 186,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 26,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 187,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 22,
+        "assigned_quantity": 10,
+        "assignment_date": "2023-07-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 188,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 32,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 189,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 113,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-10",
+        "notes": "Lab 205 A & B"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 190,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 113,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-10",
+        "notes": "LAB 402 A & B"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 191,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 113,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-10",
+        "notes": "Lab 207"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 192,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 193,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-13",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 194,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-14",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 195,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-14",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 196,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 100,
+        "assigned_quantity": 3,
+        "assignment_date": "2023-07-17",
+        "notes": "Lab 205"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 197,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 34,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-18",
+        "notes": "Lab 205"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 198,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-18",
+        "notes": "Lab 205"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 199,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 34,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-18",
+        "notes": "lab 402"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 200,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-18",
+        "notes": "Lab 402"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 201,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-18",
+        "notes": "Lab 402"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 202,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 40,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-08-18",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 203,
+    "fields": {
+        "faculty_name": "Prof.Ganesh wadmare",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 204,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-18",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 205,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 61,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-26",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 206,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-28",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 207,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-31",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 208,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 145,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-09-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 209,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 54,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-09-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 210,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 33,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-09-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 211,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 35,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-09-05",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 212,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 43,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 213,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 45,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 214,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 47,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 215,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 77,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-08-19",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 216,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-01",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 220,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 26,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 221,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-01",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 222,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 75,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 223,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 224,
+    "fields": {
+        "faculty_name": "Prof. Sheetal Jagtap",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-09",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 225,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 226,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-21",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 227,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 228,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 229,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 230,
+    "fields": {
+        "faculty_name": "Prof. Sejal Shah",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 231,
+    "fields": {
+        "faculty_name": "Prof. Sheetal Jagtap",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-23",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 232,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 233,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 89,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-03-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 234,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 69,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 235,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 40,
+        "assigned_quantity": 3,
+        "assignment_date": "2023-03-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 236,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 237,
+    "fields": {
+        "faculty_name": "Prof. Sheetal Jagtap",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 238,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-29",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 239,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-31",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 240,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 114,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-03-31",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 241,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 25,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 242,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 55,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 243,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 86,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 244,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 12,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-04-10",
+        "notes": "TERM TEST"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 245,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 41,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-04-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 246,
+    "fields": {
+        "faculty_name": "Prof.Ghanshyam Phadke",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 247,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 248,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2024-04-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 249,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 27,
+        "assigned_quantity": 3,
+        "assignment_date": "2023-04-12",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 250,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 41,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-04-17",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 251,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-17",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 252,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-18",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 253,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 51,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-18",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 254,
+    "fields": {
+        "faculty_name": "Mr. Suresh Ubale",
+        "stationary": 66,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-18",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 255,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 40,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-04-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 256,
+    "fields": {
+        "faculty_name": "Prof.Devanand Bathe",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-20",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 257,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 173,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-24",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 258,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 27,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-24",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 259,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-25",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 260,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 67,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-26",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 261,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 51,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-26",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 262,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-28",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 263,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 47,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-28",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 264,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 265,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 47,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 266,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 72,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 267,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 45,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 268,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 23,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 269,
+    "fields": {
+        "faculty_name": "Prof.Ganesh wadmare",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-03",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 270,
+    "fields": {
+        "faculty_name": "Prof. Medha Asurlekar",
+        "stationary": 11,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-04",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 271,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 272,
+    "fields": {
+        "faculty_name": "Dr. Vaishali Wadhe",
+        "stationary": 22,
+        "assigned_quantity": 15,
+        "assignment_date": "2023-05-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 273,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-25",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 274,
+    "fields": {
+        "faculty_name": "Prof.Swati Nandusekar",
+        "stationary": 23,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-25",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 275,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-26",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 276,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-26",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 277,
+    "fields": {
+        "faculty_name": "Prof. Sarika Mane",
+        "stationary": 12,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-05-01",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 278,
+    "fields": {
+        "faculty_name": "Dr. M.U.Nemade",
+        "stationary": 106,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-04-06",
+        "notes": "For S4DS"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 279,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 173,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-02-08",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 280,
+    "fields": {
+        "faculty_name": "Prof. Vrunda Ullas",
+        "stationary": 11,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-06",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 281,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 113,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-16",
+        "notes": "lab 402"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 282,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 41,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 283,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 42,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 284,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 40,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 285,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 45,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 286,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 72,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 287,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 26,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-01-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 288,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 26,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 289,
+    "fields": {
+        "faculty_name": "Prof. Vidya Sagvekar",
+        "stationary": 11,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-10",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 290,
+    "fields": {
+        "faculty_name": "Prof. Pankaj Deshmukh",
+        "stationary": 32,
+        "assigned_quantity": 1,
+        "assignment_date": "2023-07-11",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 291,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 26,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-13",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 292,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 180,
+        "assigned_quantity": 30,
+        "assignment_date": "2023-07-17",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 293,
+    "fields": {
+        "faculty_name": "Mrs. Kavita Pashte",
+        "stationary": 180,
+        "assigned_quantity": 60,
+        "assignment_date": "2023-07-17",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 294,
+    "fields": {
+        "faculty_name": "Mr. Sachin Dhale",
+        "stationary": 180,
+        "assigned_quantity": 50,
+        "assignment_date": "2023-07-17",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.assignment",
+    "pk": 296,
+    "fields": {
+        "faculty_name": "Mr. Sudhir Kasar",
+        "stationary": 100,
+        "assigned_quantity": 2,
+        "assignment_date": "2023-07-17",
+        "notes": "DEPT"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 7,
+    "fields": {
+        "item_name": "25 mm Acrylic Adhesive Clear Double Sided Tape 25 Mts"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 8,
+    "fields": {
+        "item_name": "3 Layer File Organizer, File Tray, File Plate Desk, Office Desktop Document Tray"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 9,
+    "fields": {
+        "item_name": "A3 size 16├ù12 inch cloth line cover set of 100pcs, courier envelopesr(1pkt)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 10,
+    "fields": {
+        "item_name": "A4 size printing paper(ream) _white"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 11,
+    "fields": {
+        "item_name": "A4 size printing paper(ream) pink"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 12,
+    "fields": {
+        "item_name": "A4 size printing paper(ream)_Yellow"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 13,
+    "fields": {
+        "item_name": "Answer sheet"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 14,
+    "fields": {
+        "item_name": "Attendance register"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 15,
+    "fields": {
+        "item_name": "Attendance Report"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 16,
+    "fields": {
+        "item_name": "Ball Pen (Black)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 17,
+    "fields": {
+        "item_name": "Ball Pen (Blue)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 18,
+    "fields": {
+        "item_name": "Ball Pen (Red)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 19,
+    "fields": {
+        "item_name": "Binder clip 32mm"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 20,
+    "fields": {
+        "item_name": "Binder clip 51 mm"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 21,
+    "fields": {
+        "item_name": "Box File"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 22,
+    "fields": {
+        "item_name": "Brush (for keyboard Cleaning)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 24,
+    "fields": {
+        "item_name": "CD Pouch(50CD)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 25,
+    "fields": {
+        "item_name": "CD recordable (Moserbear)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 26,
+    "fields": {
+        "item_name": "Cello tape (1 inch)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 27,
+    "fields": {
+        "item_name": "Cello tape (1/2inch)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 28,
+    "fields": {
+        "item_name": "Cello tape (2 inch)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 29,
+    "fields": {
+        "item_name": "Cello Tape 2\" Brown"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 30,
+    "fields": {
+        "item_name": "Chalk box(colour)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 31,
+    "fields": {
+        "item_name": "Chalk box(white)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 32,
+    "fields": {
+        "item_name": "Chalk Duster(Magnatic)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 33,
+    "fields": {
+        "item_name": "Cloth Duster (Yellow)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 34,
+    "fields": {
+        "item_name": "Cloth Duster(white)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 35,
+    "fields": {
+        "item_name": "Correction Tape"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 36,
+    "fields": {
+        "item_name": "Dead Stock"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 37,
+    "fields": {
+        "item_name": "Drawing Pin(Plastic coating)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 38,
+    "fields": {
+        "item_name": "DVD recordable 8GB"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 39,
+    "fields": {
+        "item_name": "DVD recordable(Moserbear)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 40,
+    "fields": {
+        "item_name": "Eraser"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 41,
+    "fields": {
+        "item_name": "Fevicol Bottle"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 42,
+    "fields": {
+        "item_name": "File Divider"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 43,
+    "fields": {
+        "item_name": "Foam Tape"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 44,
+    "fields": {
+        "item_name": "Four flaps file"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 45,
+    "fields": {
+        "item_name": "Fullscape Paper"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 46,
+    "fields": {
+        "item_name": "Gum Bottle(Camlin-200ml)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 47,
+    "fields": {
+        "item_name": "History card(Log sheet)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 48,
+    "fields": {
+        "item_name": "Hole Guard"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 49,
+    "fields": {
+        "item_name": "Hook(vacuum holder)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 50,
+    "fields": {
+        "item_name": "Lead Pencil 0.5mm"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 51,
+    "fields": {
+        "item_name": "Liquid hand wash with dispenser(Dettol)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 52,
+    "fields": {
+        "item_name": "Lock & Key"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 53,
+    "fields": {
+        "item_name": "Long register (140 pages)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 55,
+    "fields": {
+        "item_name": "Napthelin Balls (Damber Goli)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 56,
+    "fields": {
+        "item_name": "OHP sheets (transparency)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 57,
+    "fields": {
+        "item_name": "Plastic rular"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 58,
+    "fields": {
+        "item_name": "permanent Marker"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 59,
+    "fields": {
+        "item_name": "permanent Marker pointed"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 60,
+    "fields": {
+        "item_name": "Paper Cutter"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 61,
+    "fields": {
+        "item_name": "Paper pin (Box) small"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 62,
+    "fields": {
+        "item_name": "Pencil Lead Box (0.5mm 2B)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 63,
+    "fields": {
+        "item_name": "Pencil(Natraj)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 64,
+    "fields": {
+        "item_name": "Pencil Sharpener"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 65,
+    "fields": {
+        "item_name": "Plastic Document Folder"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 66,
+    "fields": {
+        "item_name": "Plastic File"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 67,
+    "fields": {
+        "item_name": "Plastic Patti file (HSN Code3926)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 68,
+    "fields": {
+        "item_name": "Punch Folder"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 69,
+    "fields": {
+        "item_name": "Punching Machine (Big)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 70,
+    "fields": {
+        "item_name": "Punching Machine (Small)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 71,
+    "fields": {
+        "item_name": "Ring file"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 72,
+    "fields": {
+        "item_name": "Room freshener Herbels"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 73,
+    "fields": {
+        "item_name": "Scissor"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 74,
+    "fields": {
+        "item_name": "Scribbling pad"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 75,
+    "fields": {
+        "item_name": "Self adhesive labels A4 - 12"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 76,
+    "fields": {
+        "item_name": "Self adhesive labels A4 size"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 77,
+    "fields": {
+        "item_name": "Sketch pen(1 packet)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 78,
+    "fields": {
+        "item_name": "Spring File"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 79,
+    "fields": {
+        "item_name": "Stapler (Kangaroo)Big"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 81,
+    "fields": {
+        "item_name": "Stapler pins Big"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 82,
+    "fields": {
+        "item_name": "Stapler pins small"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 83,
+    "fields": {
+        "item_name": "Star momento"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 84,
+    "fields": {
+        "item_name": "Steel ruler"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 85,
+    "fields": {
+        "item_name": "The Wilayat Smooth Correction Whitener Pen"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 86,
+    "fields": {
+        "item_name": "Transperancy Marker"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 87,
+    "fields": {
+        "item_name": "U Pin Box (Big)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 88,
+    "fields": {
+        "item_name": "U Pin Box (Small)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 89,
+    "fields": {
+        "item_name": "Water Jug"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 90,
+    "fields": {
+        "item_name": "White board Duster(Magnatic)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 91,
+    "fields": {
+        "item_name": "White board marker pen(blue )"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 92,
+    "fields": {
+        "item_name": "White board marker pen (black)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 93,
+    "fields": {
+        "item_name": "White board marker pen(Green)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 94,
+    "fields": {
+        "item_name": "White board marker Ink(blue )"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 95,
+    "fields": {
+        "item_name": "White board marker Ink ( black)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 96,
+    "fields": {
+        "item_name": "White board marker Ink(Red)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 97,
+    "fields": {
+        "item_name": "White board marker Ink(Green)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 99,
+    "fields": {
+        "item_name": "White Envelope"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 100,
+    "fields": {
+        "item_name": "White Sticker ( medium size packet)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 101,
+    "fields": {
+        "item_name": "Yellow Tag full size (paste it)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 102,
+    "fields": {
+        "item_name": "Yellow Tag strip (paste it)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 103,
+    "fields": {
+        "item_name": "White A4 Size Envelope Ideal For Thickness - 100 gsm | 10 ├ù 12 inch (Pack of 50)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 104,
+    "fields": {
+        "item_name": "Butter Paper sheet A4 size Box"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 105,
+    "fields": {
+        "item_name": "glue bottle"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 106,
+    "fields": {
+        "item_name": "Long register (144 page)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 107,
+    "fields": {
+        "item_name": "Long register (72 pages)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 108,
+    "fields": {
+        "item_name": "Highlights diff colour"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 109,
+    "fields": {
+        "item_name": "U Pin Box (Magnetic)"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 110,
+    "fields": {
+        "item_name": "Cell AA"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 111,
+    "fields": {
+        "item_name": "Cell AAA"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 112,
+    "fields": {
+        "item_name": "Colin spray"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 113,
+    "fields": {
+        "item_name": "Paper Weight"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 114,
+    "fields": {
+        "item_name": "book stand"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 115,
+    "fields": {
+        "item_name": "mouse pad"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 116,
+    "fields": {
+        "item_name": "Plastic File Folder"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 118,
+    "fields": {
+        "item_name": "sticker"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 119,
+    "fields": {
+        "item_name": "writing pad"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 120,
+    "fields": {
+        "item_name": "keyboard dell"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 121,
+    "fields": {
+        "item_name": "mouse dell"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 122,
+    "fields": {
+        "item_name": "Consumable register"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 123,
+    "fields": {
+        "item_name": "6 square Register"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 124,
+    "fields": {
+        "item_name": "legal paper"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 125,
+    "fields": {
+        "item_name": "A5 size envelope"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 126,
+    "fields": {
+        "item_name": "A5 size green envelope"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 127,
+    "fields": {
+        "item_name": "A4 size white envelope"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 128,
+    "fields": {
+        "item_name": "Plastic tag"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 129,
+    "fields": {
+        "item_name": "conference pad"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 130,
+    "fields": {
+        "item_name": "keyboard circle"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 131,
+    "fields": {
+        "item_name": "Nylon Cable Ties"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 132,
+    "fields": {
+        "item_name": "Laser Remote Pointer"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 133,
+    "fields": {
+        "item_name": "Stapler (Kangaroo)Small"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 134,
+    "fields": {
+        "item_name": "Warli Momento"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 135,
+    "fields": {
+        "item_name": "zip file 1"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 136,
+    "fields": {
+        "item_name": "Presenter_Pointer"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 137,
+    "fields": {
+        "item_name": "Envelope 12*10"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 138,
+    "fields": {
+        "item_name": "Rulled Registers 2Q"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 139,
+    "fields": {
+        "item_name": "White INK pen"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 140,
+    "fields": {
+        "item_name": "Red Tape"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 141,
+    "fields": {
+        "item_name": "White Board Magnetic"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 142,
+    "fields": {
+        "item_name": "Projector Screen"
+    }
+},
+{
+    "model": "stationaryapp.item",
+    "pk": 143,
+    "fields": {
+        "item_name": "White board marker pen (Red)"
+    }
+},
+{
+    "model": "stationaryapp.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "forget_password_token": "649eae4c-d5ed-422d-a70e-334d74e167c8",
+        "created_at": "2024-02-17T15:00:54.296Z"
+    }
+},
+{
+    "model": "stationaryapp.profile",
+    "pk": 3,
+    "fields": {
+        "user": 11,
+        "forget_password_token": "48f2227d-3649-4320-ac31-38d871fa076c",
+        "created_at": "2024-02-17T15:36:55.723Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-08-26T15:11:24.211Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "1",
+        "object_repr": "tanushree.h",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Role\", \"Branch\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-08-26T15:16:11.989Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "127.0.0.1:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-08-26T15:16:58.142Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "1",
+        "object_repr": "Dr. M.U.Nemade",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-08-26T15:17:09.516Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "Dr. Vaishali Wadhe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-08-26T15:17:23.712Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "3",
+        "object_repr": "Prof.Ghanshyam Phadke",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-08-26T15:17:35.079Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "4",
+        "object_repr": "Prof.Devanand Bathe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-08-26T15:17:47.956Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "5",
+        "object_repr": "Prof. Pankaj Deshmukh",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-08-26T15:18:00.527Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "6",
+        "object_repr": "Prof. Sheetal Jagtap",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-08-26T15:18:12.587Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "7",
+        "object_repr": "Prof. Medha Asurlekar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-08-26T15:18:20.723Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "8",
+        "object_repr": "Prof. Sejal Shah",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-08-26T15:18:29.693Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "9",
+        "object_repr": "Prof. Vidya Sagvekar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-08-26T15:18:39.487Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "10",
+        "object_repr": "Prof. Sarika Mane",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-08-26T15:18:51.440Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "11",
+        "object_repr": "Prof.Swati Nandusekar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-08-26T15:19:00.596Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "12",
+        "object_repr": "Mr. Sudhir Kasar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-08-26T15:19:09.533Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "13",
+        "object_repr": "Mrs. Kavita Pashte",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-08-26T15:19:22.314Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "14",
+        "object_repr": "Mr. Sachin Dhale",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-08-26T15:19:31.143Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "15",
+        "object_repr": "Mrs. Bharati Sansare",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-08-26T15:19:39.956Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "16",
+        "object_repr": "Mr. Prabhu Jadhav",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-08-26T15:19:48.522Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "17",
+        "object_repr": "Mr. Suresh Ubale",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-08-27T12:41:22.963Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-08-27T12:48:16.462Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\", \"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-08-27T12:58:56.451Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-08-27T12:59:07.889Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-08-27T13:04:47.629Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-08-27T13:05:28.408Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "faculty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-08-27T13:05:39.190Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "2",
+        "object_repr": "nevil.parekh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-08-27T13:05:43.244Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-08-27T13:05:48.280Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "1",
+        "object_repr": "tanushree.h",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-08-27T13:07:20.110Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "5",
+        "object_repr": "prajakta.bugade",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-08-27T13:07:28.973Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-08-27T13:10:13.951Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-08-27T13:11:06.325Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-08-27T13:32:50.314Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "5",
+        "object_repr": "prajakta.bugade",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-08-27T13:32:50.323Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-09-09T09:29:18.054Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "4",
+        "object_repr": "A4 Printing paper",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-09-09T09:29:18.062Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "3",
+        "object_repr": "papers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-09-09T09:29:18.068Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "2",
+        "object_repr": "Cello tape",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-09-09T09:29:18.074Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "pen",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-09-15T16:30:57.780Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "4",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-09-15T16:30:57.791Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "3",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-09-15T16:30:57.800Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "2",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-09-15T16:30:57.809Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "1",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.410Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "uowueouousoiuoufououoasjaj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.420Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "sem 4 bill no 20",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.427Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.435Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.442Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.450Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.459Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "hehe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.469Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "bill 2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-09-15T16:31:20.475Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "bill 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-09-15T16:31:29.656Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "3",
+        "object_repr": "pen",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-09-15T16:31:29.666Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "2",
+        "object_repr": "paper",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-10-05T06:29:59.259Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-10-05T06:29:59.266Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "faculty",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-10-05T06:30:23.736Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "bill invoice 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-10-05T06:30:32.537Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "13",
+        "object_repr": "bill 20/09",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-10-05T06:30:32.542Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-10-05T06:30:32.547Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2023-10-05T06:30:41.488Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "9",
+        "object_repr": "sejal.kamaliya",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2023-10-05T06:30:51.671Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "8",
+        "object_repr": "pen",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2023-10-05T06:30:51.678Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "6",
+        "object_repr": "A4 Printing paper",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.227Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "15",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.237Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "14",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.248Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "13",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.258Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "12",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.269Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "11",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.279Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "10",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.289Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "9",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.298Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "8",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.309Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "7",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.317Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "6",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-01-18T14:41:18.327Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "5",
+        "object_repr": "Nevil Parekh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-02-16T08:17:15.019Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "17",
+        "object_repr": "Mr. Suresh Ubale",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-02-16T08:17:34.200Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "16",
+        "object_repr": "Mr. Prabhu Jadhav",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-02-16T08:17:53.782Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "15",
+        "object_repr": "Mrs. Bharati Sansare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-02-16T08:18:13.853Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "14",
+        "object_repr": "Mr. Sachin Dhale",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-02-16T08:18:43.917Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "13",
+        "object_repr": "Mrs. Kavita Pashte",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-02-16T08:19:06.014Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "12",
+        "object_repr": "Mr. Sudhir Kasar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-02-16T08:19:23.118Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "11",
+        "object_repr": "Prof.Swati Nandusekar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-02-16T08:19:43.646Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "10",
+        "object_repr": "Prof. Sarika Mane",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-02-16T08:20:01.926Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "9",
+        "object_repr": "Prof. Vidya Sagvekar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-02-16T08:20:17.777Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "8",
+        "object_repr": "Prof. Sejal Shah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-02-16T08:20:39.045Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "7",
+        "object_repr": "Prof. Medha Asurlekar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-02-16T08:20:54.463Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "6",
+        "object_repr": "Prof. Sheetal Jagtap",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-02-16T08:21:05.525Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "5",
+        "object_repr": "Prof. Pankaj Deshmukh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-02-16T08:21:17.291Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "4",
+        "object_repr": "Prof.Devanand Bathe",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-02-16T08:21:27.911Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "3",
+        "object_repr": "Prof.Ghanshyam Phadke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2024-02-16T08:22:07.607Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "18",
+        "object_repr": "Prof.Ganesh wadmare",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2024-02-16T08:22:20.691Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "Dr. Vaishali Wadhe",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2024-02-16T08:22:35.119Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "1",
+        "object_repr": "Dr. M.U.Nemade",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Faculty email\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2024-02-16T14:55:48.608Z",
+        "user": 1,
+        "content_type": 5,
+        "object_id": "1",
+        "object_repr": "bharati",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2024-02-16T17:39:24.414Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "14",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2024-02-16T17:45:54.433Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2024-02-16T17:49:25.402Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "hehe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2024-02-16T17:50:47.781Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "hehe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2024-02-17T15:31:20.716Z",
+        "user": 11,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "tanushree.h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2024-02-17T17:23:35.314Z",
+        "user": 11,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "hehe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2024-02-17T17:47:26.224Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "17",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2024-02-17T17:47:26.233Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "16",
+        "object_repr": "vaishali wadhe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2024-02-20T06:40:44.221Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "98",
+        "object_repr": "White board marker Pen (Red)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2024-02-20T06:41:06.901Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "94",
+        "object_repr": "White board marker Ink(blue )",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2024-02-20T06:41:16.853Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "93",
+        "object_repr": "White board marker pen(Green)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2024-02-20T06:41:27.228Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "92",
+        "object_repr": "White board marker pen (black)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2024-02-20T06:41:35.282Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "91",
+        "object_repr": "White board marker pen(blue )",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Item name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2024-02-20T06:59:42.974Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "88",
+        "object_repr": "Prof. Sejal Shah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Notes\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2024-02-20T07:03:52.351Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "87",
+        "object_repr": "Prof. Sejal Shah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Notes\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.090Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "32",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.098Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "31",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.105Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "30",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.112Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "29",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.119Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "28",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.127Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "27",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.135Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "26",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.143Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "25",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.151Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "24",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.159Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "23",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.167Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "22",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.175Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "21",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.183Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "20",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.189Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "19",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2024-07-22T10:17:25.197Z",
+        "user": 11,
+        "content_type": 2,
+        "object_id": "18",
+        "object_repr": "Vidya Sagvekar",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add faculty",
+        "content_type": 1,
+        "codename": "add_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change faculty",
+        "content_type": 1,
+        "codename": "change_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete faculty",
+        "content_type": 1,
+        "codename": "delete_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view faculty",
+        "content_type": 1,
+        "codename": "view_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add facultyrequest",
+        "content_type": 2,
+        "codename": "add_facultyrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change facultyrequest",
+        "content_type": 2,
+        "codename": "change_facultyrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete facultyrequest",
+        "content_type": 2,
+        "codename": "delete_facultyrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view facultyrequest",
+        "content_type": 2,
+        "codename": "view_facultyrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add stationary",
+        "content_type": 3,
+        "codename": "add_stationary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change stationary",
+        "content_type": 3,
+        "codename": "change_stationary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete stationary",
+        "content_type": 3,
+        "codename": "delete_stationary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view stationary",
+        "content_type": 3,
+        "codename": "view_stationary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add assignment",
+        "content_type": 4,
+        "codename": "add_assignment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change assignment",
+        "content_type": 4,
+        "codename": "change_assignment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete assignment",
+        "content_type": 4,
+        "codename": "delete_assignment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view assignment",
+        "content_type": 4,
+        "codename": "view_assignment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 5,
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 5,
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 5,
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 5,
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 6,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 6,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 6,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 6,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 7,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 7,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 7,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 7,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 8,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 8,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 8,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 8,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 9,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 9,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 9,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 9,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 10,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 10,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 10,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 10,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add site",
+        "content_type": 11,
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change site",
+        "content_type": 11,
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete site",
+        "content_type": 11,
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view site",
+        "content_type": 11,
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add stationary bill",
+        "content_type": 12,
+        "codename": "add_stationarybill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change stationary bill",
+        "content_type": 12,
+        "codename": "change_stationarybill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete stationary bill",
+        "content_type": 12,
+        "codename": "delete_stationarybill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view stationary bill",
+        "content_type": 12,
+        "codename": "view_stationarybill"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add item",
+        "content_type": 13,
+        "codename": "add_item"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change item",
+        "content_type": 13,
+        "codename": "change_item"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete item",
+        "content_type": 13,
+        "codename": "delete_item"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view item",
+        "content_type": 13,
+        "codename": "view_item"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": 14,
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": 14,
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": 14,
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view profile",
+        "content_type": 14,
+        "codename": "view_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add association",
+        "content_type": 15,
+        "codename": "add_association"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change association",
+        "content_type": 15,
+        "codename": "change_association"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete association",
+        "content_type": 15,
+        "codename": "delete_association"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view association",
+        "content_type": 15,
+        "codename": "view_association"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add code",
+        "content_type": 16,
+        "codename": "add_code"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change code",
+        "content_type": 16,
+        "codename": "change_code"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete code",
+        "content_type": 16,
+        "codename": "delete_code"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view code",
+        "content_type": 16,
+        "codename": "view_code"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add nonce",
+        "content_type": 17,
+        "codename": "add_nonce"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change nonce",
+        "content_type": 17,
+        "codename": "change_nonce"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete nonce",
+        "content_type": 17,
+        "codename": "delete_nonce"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view nonce",
+        "content_type": 17,
+        "codename": "view_nonce"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add user social auth",
+        "content_type": 18,
+        "codename": "add_usersocialauth"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change user social auth",
+        "content_type": 18,
+        "codename": "change_usersocialauth"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete user social auth",
+        "content_type": 18,
+        "codename": "delete_usersocialauth"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view user social auth",
+        "content_type": 18,
+        "codename": "view_usersocialauth"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add partial",
+        "content_type": 19,
+        "codename": "add_partial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change partial",
+        "content_type": 19,
+        "codename": "change_partial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete partial",
+        "content_type": 19,
+        "codename": "delete_partial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view partial",
+        "content_type": 19,
+        "codename": "view_partial"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "faculty"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "facultyrequest"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "stationary"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "assignment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "stationarybill"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "item"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "stationaryapp",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "social_django",
+        "model": "association"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "social_django",
+        "model": "code"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "social_django",
+        "model": "nonce"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "social_django",
+        "model": "usersocialauth"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "social_django",
+        "model": "partial"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5qddoi12n48ghvfmalpj8a4ynrd446mg",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyEsi4Aevfcbml0eUjWQlPZk_HdD0oNeZybzFjPtW5n3ntZ5ieIqAMTpFzKFZ6rDxAfVe5Oh1W1dWI5EHrbLqcX0uh3t36BQL-MbDNmMSGQuJmhAsIAu-mCcN1o5YnA5g0XnE585IyiXI7LOmLxRVny-66s3Zg:1sKGcl:pXCyuQNekCgSn0PaJY-YgyMMm8mfzZwngoTrHuk-mUc",
+        "expire_date": "2024-07-04T12:10:43.054Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7z55eyxe4gm3vos4dzl01g27jzj0tvv4",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgAy0u3XsGMsyAVA1NSrsy3l1JutDtf-_9lwi4byXsLa1hZnEWWpx-t4j0SLUDvmO9LZKWuq1zlF2RB23yunB6Xg7376BgK9_auMllNykAHjE6kx2jI7BMEHVWCTwSWT-qziLrnNhSHIAHbYzxWrw_67c4KQ:1reYvy:CG3Vv5WbU57MuUEvk2rNI9OUP9k7xHCcnQGEeqIkXcs",
+        "expire_date": "2024-03-11T11:14:10.407Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8rmaiv7u7e6t87wc205glhf93bkz5zyf",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyEsi4Aevfcbml0eUjWQlPZk_HdD0oNeZybzFjPtW5n3ntZ5ieIqAMTpFzKFZ6rDxAfVe5Oh1W1dWI5EHrbLqcX0uh3t36BQL-MbDNmMSGQuJmhAsIAu-mCcN1o5YnA5g0XnE585IyiXI7LOmLxRVny-66s3Zg:1sVq6n:5mEmtBpqkV4QuQ5hRlknYhMl009-drQpQkp1_Lzt7CA",
+        "expire_date": "2024-08-05T10:17:33.364Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8yi48fllijuv244w86vlga370a6fcwsf",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlmO17vGlPScwVr_cAA5UpxUiLuTSCmgmGbem3kLz-tS_drz7MckLmIQp98ucHzmtoP04HafZJzaMo9B7oo8aJe3KeXX9XD_Dir3uq0LaTekElU0EELJxM5qzIosMWk4AyoEg5ZDdhFoC1pFzhCgQaNYfL7Wdja8:1qaDPm:FL7Ss4dRn6dGrnVxab3tubEuOluymm6YMCpojPS8naY",
+        "expire_date": "2023-08-27T11:04:42.981Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bdkabtozqbl1s8cmvy483249wxp76p6e",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlmO17vGlPScwVr_cAA5UpxUiLuTSCmgmGbem3kLz-tS_drz7MckLmIQp98ucHzmtoP04HafZJzaMo9B7oo8aJe3KeXX9XD_Dir3uq0LaTekElU0EELJxM5qzIosMWk4AyoEg5ZDdhFoC1pFzhCgQaNYfL7Wdja8:1qZvJf:UwsVTw9WnmpNFEdn5yVqgwMEq7bACrNX9hV5KfaXIOU",
+        "expire_date": "2023-09-09T15:35:11.773Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "egke4ootggr7c3xti641wv5uo0lr11ix",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlmO17vGlPScwVr_cAA5UpxUiLuTSCmgmGbem3kLz-tS_drz7MckLmIQp98ucHzmtoP04HafZJzaMo9B7oo8aJe3KeXX9XD_Dir3uq0LaTekElU0EELJxM5qzIosMWk4AyoEg5ZDdhFoC1pFzhCgQaNYfL7Wdja8:1qZuwD:nd2MQJKgCjFQZXm6qa68y7zUBc9qH32PAq7NO6T3rAo",
+        "expire_date": "2023-09-09T15:10:57.454Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ijhaoqqxyl9wp9twtlhpe63lv8xnwo6q",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBOgQFduvcMZGAmUjWQlHZlvLtt0oVu33v_v1WkdSlx7TLHidVFAajTL0yUn1J3ww-q96Zzq8s8Jb0n-rBd3xrL63q0fweFetnWlgA9AKALmPzoYQzieCCksNFsnPMcSMRktugzCpqcXLLnIQCy8-rzBdUkNxM:1rt4dB:r9RCOx424xAqlatYYE9j2lmDeNRoq6JIgTxlLDyg1iw",
+        "expire_date": "2024-04-20T11:54:45.200Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lkeoysj0hyxg5iip6rf0bfd1ellyb6xs",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rY0p6XMGa732kgCypXwqxN0hUgpo38y8l0i4rWPaljqnqYiL8OL0u2WkR207KHdsty6pt3WestwVedBFDr3U5_Vw_w5GXMZvzYSawToXoUQTUFelLDKTQ68JKDNrZVjVDOQrUFTnEKxnBjIeYhTvD_yPODw:1qeXWp:kUpHVLouuOteXXyGYs6qdEgnWpuwN-q0SJT16m_u_ts",
+        "expire_date": "2023-09-22T09:11:51.649Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "scmd5rf8x9fdoo3dajzsssnvzlc8nwhw",
+    "fields": {
+        "session_data": ".eJxVjEEOgjAURO_StWn4UEtx6d4zNNP-X4uaklBYGe8uJCx0OfPezFt5rEv2a5XZj6wuitTptwuITyk74AfKfdJxKss8Br0r-qBV3yaW1_Vw_w4yat7WsbMsMVnDEkBbEuoZjhIZ4whh6KmLZxGDgNS0Dm3TWAxIzOTYJvX5AhDOOQ0:1qsMVW:YasH0oJ2kFhu9wlYE9_NMapyd8xRKvrYRBZJ-7qR7i0",
+        "expire_date": "2023-10-30T12:15:38.036Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "u1kfygr0o8wfd018ekdsckcu1aaizeo0",
+    "fields": {
+        "session_data": ".eJxVjEEOgjAURO_StWn4UEtx6d4zNNP-X4uaklBYGe8uJCx0OfPezFt5rEv2a5XZj6wuitTptwuITyk74AfKfdJxKss8Br0r-qBV3yaW1_Vw_w4yat7WsbMsMVnDEkBbEuoZjhIZ4whh6KmLZxGDgNS0Dm3TWAxIzOTYJvX5AhDOOQ0:1raeY7:CndeIX4ggGgpeEjJxCsWVSajKdex51O8IE6EJP_mxIk",
+        "expire_date": "2024-02-29T16:25:23.858Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yuamde55e3kd9d7gpxi0e5cb47vy2gpc",
+    "fields": {
+        "session_data": ".eJxVjEEOgjAURO_StWn4UEtx6d4zNNP-X4uaklBYGe8uJCx0OfPezFt5rEv2a5XZj6wuitTptwuITyk74AfKfdJxKss8Br0r-qBV3yaW1_Vw_w4yat7WsbMsMVnDEkBbEuoZjhIZ4whh6KmLZxGDgNS0Dm3TWAxIzOTYJvX5AhDOOQ0:1rJxET:W5LewMtK4m-eXcEICU_IMQeCVXAzeCRK0YnkRDvWec4",
+        "expire_date": "2024-01-14T14:56:05.614Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z95c32ia09camc4hmyme2euyfryuayys",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlmO17vGlPScwVr_cAA5UpxUiLuTSCmgmGbem3kLz-tS_drz7MckLmIQp98ucHzmtoP04HafZJzaMo9B7oo8aJe3KeXX9XD_Dir3uq0LaTekElU0EELJxM5qzIosMWk4AyoEg5ZDdhFoC1pFzhCgQaNYfL7Wdja8:1qaDdf:eZMDJ3V7naR8cIHZhr56VuefsFQM1HkbjzjHMnZ6lb0",
+        "expire_date": "2023-08-27T11:19:03.091Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "127.0.0.1:8000",
+        "name": "ssms"
+    }
+}
+]

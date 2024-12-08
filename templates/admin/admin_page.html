@@ -1,0 +1,477 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Admin Page{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 40px;
+        }
+        
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px;
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        
+        .prepare{
+            margin: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-right: 20px;
+            margin-top: 25px;
+            color: #b2011e;
+            margin-bottom: 25px;
+            font-weight: bold;
+            left:0;
+        }
+
+        .container{
+            margin: 10px auto;
+            padding: 5px;
+            background-color: #fafafa;
+            border-radius: 4px;
+            max-width: 1300px;
+        }
+        .topcon {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .downcon {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .downcon1 {
+            display: flex;
+        }
+
+        .user-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center; /* Align items in the center vertically */
+            width: 330px;
+        }
+
+        .user-info i {
+            font-size: 100px;
+            color: #910118;
+            margin-right: 15px; /* Space between icon and text */
+        }
+
+        .user-info h2 {
+            color: #b2011e;
+            margin: 0; /* Reset margin */
+            padding: 0; /* Reset padding */
+            line-height: 1; /* Adjust line height to reduce vertical space */
+        }
+
+        .user-info h3 {
+            color: #910118;
+            font-size:30px;
+            margin-top:0;
+            margin-bottom: 10px; /* Reset margin */
+            padding: 0; /* Reset padding */
+            line-height: 1; /* Adjust line height to reduce vertical space */
+        }
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .btn-container button {
+            padding: 14px 20px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            color: #910118;
+            border: 1px solid #910118;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size:20px;
+            font-weight:600;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-container button:hover {
+            background-color: #fafafa;
+        }
+
+        .leftcon{
+            margin-right: 40px;
+        }
+
+        .red-boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .red-box {
+            flex-basis: calc(30% - 10px);
+            background-color: #f6d4d0;
+            color: #000;
+            text-align: center;
+            padding: 20px;
+            border-radius: 0px;
+            width: 250px; /* Set height to 100px */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right:10px;
+            height:100px;
+            font-weight:700;
+            font-size:20px;
+            flex-direction: column; /* Change to column layout */
+        }
+        .red-box:last-child {
+            margin-right: 0; /* Override margin-right for the last red-box */
+        }
+        .red-box p {
+            font-size: 50px; /* Font size increased to 40px */
+            font-weight: bold; /* Bold font */
+            color:#fff;
+            margin-bottom:10px;
+            margin-top:0px;
+        }
+        .red-box .count, .red-box .name {
+            margin: 0; /* Reset margin */
+            padding: 0; /* Reset padding */
+            line-height: 1; /* Adjust line height to reduce vertical space */
+        }
+        .button-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button-column {
+            flex-basis: 45%;
+        }
+
+        .button-column button {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #910118;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-column button:hover {
+            background-color: #890117;
+        }
+
+        .button-row1 {
+            display: flex;
+            justify-content: space-between;
+            width:1300px;
+        }
+
+        .button-column1 {
+            flex-basis: calc(33% - 10px);
+        }
+
+        .button-column1 button {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #fadde1;
+            color: #910118;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            font-weight:600;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border:none;
+        }
+
+        .button-column1 button:hover {
+            background-color: #fabbc6;
+        }
+
+        .button-column2 {
+            flex-basis: calc(33% - 10px);
+        }
+
+        .button-column2 button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-weight:600;
+        }
+
+        .toast {
+            visibility: hidden;
+            max-width: 250px;
+            background-color: #1b1b1b;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+        }
+
+        .toast.show {
+            visibility: visible;
+            animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeOut {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
+        /* Adjustments for smaller screens */
+        @media screen and (max-width: 768px) {
+            .topcon, .downcon, .downcon1 {
+                flex-direction: column;
+            }
+            .leftcon, .rightcon {
+                width: 100%;
+            }
+            .user-info {
+                width: 100%;
+                max-width: 100%;
+            }
+            .button-row, .button-row1 {
+                flex-direction: column;
+                width: 100%;
+            }
+            .button-column, .button-column1, .button-column2 {
+                flex-basis: 100%;
+            }
+            .red-box {
+                flex-basis: 100%;
+                margin-bottom: 15px;
+            }
+        }        
+    </style>
+    
+</head>
+<body>
+    {% block body %}
+    {% if user.is_authenticated %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <a href="/logout/" style="color:#910118; font-size: 25px; margin-right: auto;"><i class='bx bx-exit'></i></a>
+        <h1>SSMS ADMIN PAGE</h1>
+    </div>
+    <div class="container">
+        <div class="topcon">
+            <div class="leftcon">
+                <div class="user-info">
+                    <i class='bx bxs-user'></i>
+                    <div>
+                        <h3>Hello,</h3>
+                        <h2>{{ user.first_name }} {{ user.last_name }}</h2>
+                        <h2>{{ user.branch }}</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="btn-container">
+                        <button onclick="window.location.href='/resetpassword/'">Reset Password</button>
+                        <button onclick="window.location.href='/add_faculty_user/'">Add User</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcon">
+                <div class="red-boxes">
+                    <div class="red-box">
+                        <div class="count">
+                            <p>{{ user_count }}</p>
+                        </div>
+                        <div class="name">
+                            USERS
+                        </div>
+                    </div>
+                    <div class="red-box">
+                        <div class="count">
+                            <p>{{ available_stationery_count }}</p>
+                        </div>
+                        <div class="name">
+                            STATIONARIES
+                        </div>
+                    </div>
+                    <div class="red-box">
+                        <div class="count">
+                            <p>{{ pending_requests_count }}</p>
+                        </div>
+                        <div class="name">
+                            REQUESTS
+                        </div>
+                    </div>
+                </div>
+                <div class="button-row">
+                    <div class="button-column">
+                        <button onclick="window.location.href='/add_stationary_faculty/'">Add Stationary/Faculty</button>
+                        <button onclick="window.location.href='/update_stationary/'">Edit Stationary</button>
+                    </div>
+                    <div class="button-column">
+                        <button onclick="window.location.href='/assign_stationary/'">Assign Stationary</button>
+                        <button onclick="window.location.href='/billinvoice/'">Upload Bills</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="downcon">
+            <div class="button-row1">
+                <div class="button-column1">
+                    <button onclick="window.location.href='/view_stationary/'">View Stationary</button>
+                    <button onclick="window.location.href='/viewusers/'">View Users</button>
+                </div>
+                <div class="button-column1">
+                    <button onclick="window.location.href='/view_requests/'">View Requests</button>
+                    <button onclick="window.location.href='/view_faculty/'">View Faculty</button>
+                </div>
+                <div class="button-column1">
+                    <button onclick="window.location.href='/view_assignments/'">View Assignments</button>
+                    <button style="background-color: #d0f0c0; color: #000;" onclick="window.location.href='/insights/'"> View Insights</button>
+                </div>
+            </div>
+        </div>
+        <div class="downcon1">
+            <div class="button-row1">
+                <div class="button-column2">
+                    <form method="get" action="{% url 'download_stationary_data' %}">
+                        <button class="btn btn-primary" type="submit">Download Stationary Data</button>
+                    </form>
+                </div>
+                <div class="button-column2">
+                    <form method="get" action="{% url 'download_assignment_data' %}">
+                        <button class="btn btn-primary" type="submit">Download Assignment Data</button>
+                    </form>
+                </div>
+                <div class="button-column2">
+                    <form method="get" action="{% url 'download_faculty_request_data' %}">
+                        <button class="btn btn-primary" type="submit">Download Faculty Request Data</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer> 
+        <div class="footer">
+            <div class="Logos">
+                <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+            </div>
+            <div class="prepare">
+                <p >
+                    <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                    Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                    Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+                </p>
+            </div>
+        </div>
+    </footer>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    {% endblock body %}
+    <div class="toast" id="toastMessage"></div>
+
+    <script>
+        function showToast(message, duration) {
+            const toast = document.getElementById('toastMessage');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(function() {
+                toast.classList.remove('show');
+            }, duration);
+        }
+
+        {% if messages %}
+        {% for message in messages %}
+            showToast("{{ message }}", 3000); 
+        {% endfor %}
+        {% endif %}
+    </script>
+</body>
+</html>

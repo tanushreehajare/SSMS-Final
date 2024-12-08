@@ -1,0 +1,487 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Stationary Inventory{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <style>
+        .homecon {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #b2011e;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .homecon span {
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        .homecon i {
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 0px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+            margin-bottom: 100px;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px; 
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 20px;
+        }
+        .prepare{
+            margin: 10px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-right: 20px;
+            margin-top: 25px;
+            color: #b2011e;
+            margin-bottom: 25px;
+            font-weight: bold;
+            left:0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #910118;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        tr:hover {
+            background-color: #fafafa;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+        .dropdown-drawer {
+            position: relative;
+        }
+        
+        .dropdown-button {
+            margin-top: 1px;
+            font-size: 20px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #b2011e;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 10px;
+            width:180px;
+        }
+        
+        .dropdown-content a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #910118;
+        }
+        .dropdown-content.show-dropdown {
+            display: block;
+        }
+        .scroll-to-top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #b2011e;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    
+        .scroll-to-top-button span {
+            font-size: 24px;
+        }
+
+        button1 {
+            background-color: #b2011e;
+            color: white;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right:20px;
+        }
+
+        .about-us-option {
+            margin-right: 0px;
+            margin-top: 60px;
+            color: #4a4a4a;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    {% block body %}
+    {% if user.is_authenticated %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <a href="/logout/" style="color:#910118; font-size: 25px; margin-right: auto;"><i class='bx bx-exit'></i></a>
+        <div class="dropdown-drawer">
+            <button class="dropdown-button" style='color:#000;' onclick="toggleDropdown()">☰</button>
+            <div class="dropdown-content">
+                <a href="/add_stationary_faculty/">Add Stationary/Faculty</a>
+                <a href="/assign_stationary/">Assign Stationary</a>
+                <a href="/add_faculty_user/">Add Users</a>
+                <a href="/update_stationary/">Edit Stationary</a>
+                <a href="/billinvoice/">Upload Bills</a>
+                <a href="/view_stationary/">View Stationary</a>
+                <a href="/view_faculty/">View Faculty</a>
+                <a href="/view_requests/">View Requests</a>
+                <a href="/view_assignments/">View Assignments</a>
+                <a href="/viewusers/">View Users</a>      
+            </div>
+        </div>
+        <h1>SSMS</h1>
+        
+    </div>
+    <h1 style="margin-top:5px; margin-bottom:5px;">Stationary Inventory</h1>
+    <div class="container">
+        <div>
+            <label for="stationaryDropdown">Stationary:</label>
+            <select id="stationaryDropdown" style='margin-right:20px; width:150px;' name="stationary">
+                    <option value="" selected>Select Stationary</option>
+                    {% for stationary_name in unique_stationary_names %}
+                    <option value="{{ stationary_name }}">{{ stationary_name }}</option>
+                    {% endfor %}
+                </select> 
+            <label for="start-date">Start Date:</label>
+            <input type="date" style="margin-right:20px;" id="start-date">
+            <label for="end-date">End Date:</label>
+            <input type="date" style="margin-right:20px;"  id="end-date">
+            <button1 id="filterByDateRange()" class="filterByDateRange()" name="filterByDateRange()" onclick="filterByDateRange()" style="margin-right:20px;" >Filter By Date</button1>
+            <button1 id="filter-button" type='button' class="filter-button" name="filter-button" onclick="filterTable()">Filter By Stationary</button1>
+            
+            
+        </div>
+        <div style="margin-top:20px;">
+            <button1 onclick="filterAvailableStationary()">View Available Stationary</button1>
+            <button1 onclick="filterFinishedStationary()">View Finished Stationary</button1>
+            <button1 onclick="window.location.href='/view_stationary/'">Refresh</button1> 
+            <span>Refresh To Apply Filter Again</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th><a href="javascript:void(0)" onclick="sortBy(1)" style="color: #fff; text-decoration: none;">Stationary Name</a></th>
+                    <th>Ordered Quantity</th>
+                    <th><a href="javascript:void(0)" onclick="sortBy(3)" style="color: #fff; text-decoration: none;">Available Quantity</a></th>
+                    <th><a href="javascript:void(0)" onclick="sortBy(4)" style="color: #fff; text-decoration: none;">Recieved Date</a></th>
+                    <th>Issued From</th>
+                    <th>Cost Per Item</th>
+                    <th>Total Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stationary in stationary_names %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ stationary.stationary_name }}</td>
+                        <td>{{ stationary.issued_quantity }}</td>
+                        <td>{{ stationary.available_quantity }}</td>
+                        <td>{{ stationary.issued_date }}</td>
+                        <td>{{ stationary.issued_from }}</td>
+                        <td>{{ stationary.cost_per_item }}</td>
+                        <td>{{ stationary.total_cost }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="scroll-to-top-button" onclick="scrollToTop()">
+        <span>▲</span>
+    </div>
+    <div class="homecon" onclick="window.location.href='/adminlogin/'">
+        <span><i class='bx bxs-home'></i></box-icon></span>
+    </div>
+    <footer> 
+        <div class="footer">
+                <div class="Logos">
+                    <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                    <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                    <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                    <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                    <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+        
+                </div>
+        <div class="prepare">
+        
+            <p >
+                <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+            </p>
+        </div>
+        </div>
+    </footer>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    {% endblock body %}
+    <div class="toast" id="toastMessage"></div>
+    <script>
+        function sortBy(columnIndex) {
+            const tableBody = document.querySelector("tbody");
+            const rows = Array.from(tableBody.querySelectorAll("tr"));
+    
+            const sortedRows = rows.sort((a, b) => {
+                const valueA = a.querySelectorAll("td")[columnIndex].textContent.trim();
+                const valueB = b.querySelectorAll("td")[columnIndex].textContent.trim();
+    
+                // Check if values are dates
+                const dateA = new Date(valueA);
+                const dateB = new Date(valueB);
+    
+                // If values are dates, compare them as dates
+                if (!isNaN(dateA.getTime()) && !isNaN(dateB.getTime())) {
+                    return dateA - dateB;
+                }
+    
+                // Otherwise, compare them as strings
+                return valueA.localeCompare(valueB, undefined, { numeric: true, sensitivity: 'base' });
+            });
+    
+            tableBody.innerHTML = ""; 
+    
+            sortedRows.forEach(row => {
+                tableBody.appendChild(row);
+            });
+        }
+
+        function filterAvailableStationary() {
+            const tableBody = document.querySelector("tbody");
+            const rows = Array.from(tableBody.querySelectorAll("tr"));
+        
+            rows.forEach(row => {
+                row.style.display = "table-row";
+            });
+        
+            const availableRows = rows.filter(row => {
+                const availableQuantity = parseInt(row.querySelector("td:nth-child(4)").textContent);
+                return availableQuantity > 0;
+            });
+        
+            const sortedRows = availableRows.sort((a, b) => {
+                const availableQuantityA = parseInt(a.querySelector("td:nth-child(4)").textContent);
+                const availableQuantityB = parseInt(b.querySelector("td:nth-child(4)").textContent);
+                return availableQuantityA - availableQuantityB;
+            });
+        
+            tableBody.innerHTML = ""; 
+        
+            sortedRows.forEach(row => {
+                tableBody.appendChild(row);
+            });
+        }
+        function filterByDateRange() {
+            const startDateString = document.getElementById("start-date").value;
+            const endDateString = document.getElementById("end-date").value;
+        
+            if (!startDateString || !endDateString) {
+                alert("Please select valid start and end dates.");
+                return;
+            }
+        
+            const startDate = new Date(startDateString);
+            const endDate = new Date(endDateString);
+        
+            if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+                alert("Please select valid start and end dates.");
+                return;
+            }
+        
+            const formattedStartDate = startDate.toISOString().split('T')[0];
+            const formattedEndDate = endDate.toISOString().split('T')[0];
+        
+            let filterURL = '/view_stationary/?';
+        
+            if (formattedStartDate) {
+                filterURL += `start_date=${formattedStartDate}&`;
+            }
+            if (formattedEndDate) {
+                filterURL += `end_date=${formattedEndDate}&`;
+            }
+        
+            window.location.href = filterURL;
+        }
+        
+        
+        
+        function filterFinishedStationary() {
+            const rows = document.querySelectorAll("tbody tr");
+            rows.forEach(row => {
+                const availableQuantity = parseInt(row.querySelector("td:nth-child(4)").textContent);
+                if (availableQuantity === 0) {
+                    row.style.display = "table-row";
+                } else {
+                    row.style.display = "none";
+                }
+            });
+        }
+    
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        function toggleDropdown() {
+            const dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.classList.toggle('show-dropdown');
+        }
+    
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-button')) {
+                const dropdowns = document.getElementsByClassName('dropdown-content');
+                for (let i = 0; i < dropdowns.length; i++) {
+                    const openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show-dropdown')) {
+                        openDropdown.classList.remove('show-dropdown');
+                    }
+                }
+            }
+        };
+
+        function filterTable() {
+            const selectedStationary = document.getElementById('stationaryDropdown').value;
+        
+            let filterURL = '/view_stationary/?';
+            if (selectedStationary) {
+                filterURL += `stationary_name=${selectedStationary}&`;
+            }
+        
+            window.location.href = filterURL;
+
+            window.location.href = filterURL;
+        }
+
+        function showToast(message, duration) {
+            const toast = document.getElementById('toastMessage');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(function() {
+                toast.classList.remove('show');
+            }, duration);
+        }
+
+        {% if messages %}
+        {% for message in messages %}
+            showToast("{{ message }}", 3000); 
+        {% endfor %}
+        {% endif %}
+    </script>
+</body>
+</html>

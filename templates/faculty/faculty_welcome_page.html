@@ -1,0 +1,341 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Faculty Home Page{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 500px;
+            justify-content: center;
+            margin: 20px auto; 
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 35px;
+            margin-bottom: 70px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 40px;
+        }
+
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+        .profile img{
+            height: 50px;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px; 
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        
+        .prepare{
+            margin: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-right: 170px;
+            margin-top: 25px;
+            color: #b2011e;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 95%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .btn {
+            display: block;
+            justify-content: center;
+            width: 50%;
+            padding: 12px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 25px;
+            margin-left: 125px;
+        }
+
+        .btn-primary {
+            background-color: #910118;
+        }
+
+        .notification {
+            text-align: center;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .toast {
+            visibility: hidden;
+            max-width: 250px;
+            background-color: #1b1b1b;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+        }
+
+        .toast.show {
+            visibility: visible;
+            animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeOut {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
+        select {
+            width: 99%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 18px;
+        }
+
+        
+        option[value=""] {
+            color: #ccc;
+        }
+
+        .homecon {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #b2011e;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .homecon span {
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        .homecon i {
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    {% block body %}
+    {% if user.is_authenticated %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <h1>SSMS Faculty Page</h1>
+        <div class="profile">
+            <a href="/user_profile/">
+                <div style="width: 100px; height: 100px; display: flex; justify-content: center; align-items: center; cursor: pointer; margin-right: 20px;">
+                    <img src="{% static 'images/avatar.png' %}" alt="profile Image"></img>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container mb-3">
+        <form method="POST" action="/facultylogin/">
+        {% csrf_token %}
+            <div class="form-group">
+                <label for="faculty_name">Faculty Name:</label>
+                <input type="text" id="faculty_name" name="faculty_name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="faculty_gmail">Faculty Gmail:</label>
+                <input type="text" id="faculty_gmail" name="faculty_gmail" placeholder="Enter your gmail">
+            </div>
+            <div class="form-group">
+                <label for="search_item">Search Item:</label>
+                <input type="text" id="search_item" onkeyup="filterDropdown()" placeholder="Search for an item">
+                <select id="item_dropdown" name="item_dropdown" onchange="updateQuantity()">
+                    <option value="" disabled selected>Select an item</option>
+                    {% for item in items %}
+                        <option value="{{ item.id }}">{{ item.item_name }}</option>
+                    {% endfor %}
+                </select>                  
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+            </div>
+            <div>
+                <label for="note">Note:</label>
+                <input placeholder="Any Staionary Request?" type="text" id="note" name="note" value="-"  required>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Submit Request</button>
+            </div>
+        </form>
+    </div>
+    <div class="homecon" onclick="window.location.href='/logout/'">
+        <span><i class='bx bx-exit'></i></box-icon></span>
+    </div>
+    <footer> 
+        <div class="footer">
+                <div class="Logos">
+                    <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                    <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                    <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                    <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                    <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+        
+                </div>
+        <div class="prepare">
+        
+            <p >
+                <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+            </p>
+        </div>
+        </div>
+    </footer>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    {% endblock body %}
+    <div class="toast" id="toastMessage"></div>
+
+    <script>
+        window.onload = function() {
+            var userFullName = '{{ user.get_full_name }}';
+            var userEmail = '{{ user.email }}';
+
+            document.getElementById('faculty_name').value = userFullName;
+            document.getElementById('faculty_gmail').value = userEmail;
+        }
+        function filterDropdown() {
+            const input = document.getElementById('search_item').value.toLowerCase();
+            const dropdown = document.getElementById('item_dropdown');
+            const options = dropdown.getElementsByTagName('option');
+    
+            for (let i = 0; i < options.length; i++) {
+                const value = options[i].textContent.toLowerCase(); 
+                if (value.includes(input)) {
+                    options[i].style.display = 'block';
+                } else {
+                    options[i].style.display = 'none';
+                }
+            }
+        }
+    
+        function updateQuantity() {
+            const dropdown = document.getElementById('item_dropdown');
+            const selectedOption = dropdown.options[dropdown.selectedIndex].value;
+            document.getElementById('quantity').value = 1;
+            
+        }
+        function showToast(message, duration) {
+            const toast = document.getElementById('toastMessage');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(function() {
+                toast.classList.remove('show');
+            }, duration);
+        }
+
+        {% if messages %}
+        {% for message in messages %}
+            showToast("{{ message }}", 3000); 
+        {% endfor %}
+        {% endif %}
+    </script>
+</body>
+</html>

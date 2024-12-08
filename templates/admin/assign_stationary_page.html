@@ -1,0 +1,573 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Assign Stationary to Faculty{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <style>
+        .homecon {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #b2011e;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .homecon span {
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        .homecon i {
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px; 
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        
+        .prepare{
+            margin: 10px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-right: 20px;
+            margin-top: 25px;
+            color: #b2011e;
+            margin-bottom: 25px;
+            font-weight: bold;
+            left:0;
+        }
+        .footer-bar {
+            background-color: #910118;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 50px;
+        }
+        form {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 0px solid #ccc;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 100px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        select{
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        input[type="number"],
+        input[type="date"],
+        input[type="notes"] {
+            width: 95%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 18px;
+        }
+
+        button[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 170px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #890117;
+        }
+        .container {
+            max-width: 500px;
+            justify-content: center;
+            margin: 20px auto; 
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .toast {
+            visibility: hidden;
+            max-width: 250px;
+            background-color: #1b1b1b;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+        }
+
+        .toast.show {
+            visibility: visible;
+            animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeOut {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
+        .dropdown-drawer {
+            position: relative;
+        }
+        
+        .dropdown-button {
+            margin-top: 1px;
+            font-size: 20px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #b2011e;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 10px;
+            width:180px;
+        }
+        
+        .dropdown-content a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #910118;
+        }
+        .dropdown-content.show-dropdown {
+            display: block;
+        }
+        .about-us-option {
+            margin-right: 0px;
+            margin-top: 60px;
+            color: #4a4a4a;
+            text-decoration:none;
+        }
+        .container-wrapper {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .form-container {
+            width: 48%;
+        }
+        .table-container {
+            width: 50%;
+            background-color: #fff;
+            border: 0px solid #ccc;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 100px;
+            margin-left: 100px;
+            height: 545px;
+            margin-top: 19px;
+            overflow: hidden; /* Hide the overflow from the container */
+            position: relative;
+        }
+        
+        .table-wrapper {
+            overflow: auto;
+            height: 100%; 
+            scrollbar-width: thin; 
+            scrollbar-color: #910118; 
+        }
+        
+        /* For Webkit browsers (Chrome, Safari) */
+        .table-wrapper::-webkit-scrollbar {
+            width: 4px; 
+        }
+        
+        .table-wrapper::-webkit-scrollbar-thumb {
+            background-color: #910118;
+            border-radius:3px;
+        }
+        
+        .table-wrapper::-webkit-scrollbar-track {
+            background-color: transparent; 
+        }
+        
+
+        .table-header {
+            position: sticky;
+            top: 0;
+            color: #fff;
+            z-index: 1;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            justify-content:center;
+            height:35px;
+        }
+
+        th {
+            background-color: #910118;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        tr:hover {
+            background-color: #fafafa;
+        }
+
+        .dropd {
+            border-radius: 5px;
+            width: auto; 
+            height: auto; 
+            padding: 5px; 
+            font-size: 12px; 
+            margin:0;
+        }
+        .fulfilled-dropdown {
+            position: relative; 
+            text-align: center; 
+            vertical-align: middle; 
+            padding: 0; 
+            margin-top:0px;
+        }
+        
+    </style>
+</head>
+<body>
+    {% block body %}
+    {% if user.is_authenticated %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <a href="/logout/" style="color:#910118; font-size: 25px; margin-right: auto;"><i class='bx bx-exit'></i></a>
+        <div class="dropdown-drawer">
+            <button class="dropdown-button" onclick="toggleDropdown()">☰</button>
+            <div class="dropdown-content">
+                <a href="/add_stationary_faculty/">Add Stationary/Faculty</a>
+                <a href="/assign_stationary/">Assign Stationary</a>
+                <a href="/add_faculty_user/">Add Users</a>
+                <a href="/update_stationary/">Edit Stationary</a>
+                <a href="/billinvoice/">Upload Bills</a>
+                <a href="/view_stationary/">View Stationary</a>
+                <a href="/view_faculty/">View Faculty</a>
+                <a href="/view_requests/">View Requests</a>
+                <a href="/view_assignments/">View Assignments</a>
+                <a href="/viewusers/">View Users</a>      
+            </div>
+        </div>
+        <h1>SSMS</h1>
+        
+    </div>
+    <h1 style="margin-top:5px; margin-bottom:5px;">Assign Stationary To Faculty</h1>
+    <div class="container-wrapper">
+        <div class="table-container">
+            <div class="table-wrapper">
+                <div class="table-header">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width:5%;">Sr. No.</th>
+                                <th style="width:25%;">Faculty</th>
+                                <th style="width:40%;">Item</th>
+                                <th style="width:10%;">Quantity</th>
+                                <th style="width:20%;">Status</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <table style="font-size:14px">
+                    <tbody id="request-table-body">
+                        {% for request in faculty_requests %}
+                            <tr>
+                                <td style="width:6%;">{{ forloop.counter }}</td>
+                                <td style="width:24%;">{{ request.faculty_name }}</td>
+                                <td style="width:39%;">{{ request.item_name }}</td>
+                                <td style="width:11%;">{{ request.quantity }}</td>
+                                <td class="fulfilled-dropdown" style="margin-top:0; width:20%;">
+                                    <form style="box-shadow:none; margin-top:1px; margin:0; padding:0; margin-bottom:1px; background-color:transparent;" method="POST" action="{% url 'update_status_request' request.id %}">
+                                        {% csrf_token %}
+                                        <select name="status" class="dropd" style="margin-top:0;" onchange="this.form.submit()">
+                                            <option value="Pending" {% if request.status == 'Pending' %}selected{% endif %}>Pending</option>
+                                            <option value="Seen" {% if request.status == 'Seen' %}selected{% endif %}>Seen</option>
+                                            <option value="Issued" {% if request.status == 'Issued' %}selected{% endif %}>Issued</option>
+                                            <option value="Ordered" {% if request.status == 'Ordered' %}selected{% endif %}>Ordered</option>
+                                        </select>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="form-container">
+            <form method="POST" action="/assign_stationary/" style="margin-top:20px;">
+                {% csrf_token %}
+                <div>
+                    <label for="faculty_name">Select Faculty:</label>
+                    <select id="faculty_name" name="faculty_name">
+                        <option value="">-- Select Faculty --</option>
+                        {% for faculty in faculties %}
+                        <option value="{{ faculty.id }}" {% if faculty.id == request.POST.faculty_name %}selected{% endif %}>{{ faculty.facultys_name }}</option>
+                        {% endfor %}
+                    </select>
+                </div> 
+                <div>
+                    <label for="stationary">Select Stationary:</label>
+                    <select id="stationary" name="stationary_name">
+                        <option value="">-- Select Stationary --</option>
+                        {% for item in stationaries %}
+                        <option value="{{ item.name }}">{{ item.name }} (Available: {{ item.available_quantity }})</option>
+                        {% endfor %}
+                    </select>
+
+                </div>                
+                <div>
+                    <label for="assigned_quantity">Assigned Quantity:</label>
+                    <input type="number" id="assigned_quantity" name="assigned_quantity" min="1" value="{% if request.POST.assigned_quantity %}{{ request.POST.assigned_quantity }}{% else %}1{% endif %}">
+                </div>
+                <div>
+                    <label for="assignment_date">Assignment Date:</label>
+                    <input type="date" id="assignment_date" name="assignment_date" value="{% if request.POST.assignment_date %}{{ request.POST.assignment_date }}{% endif %}">
+                </div>
+                <div>
+                    <label for="notes">Note:</label>
+                    <input placeholder="Eg: Dept" type="notes" id="notes" name="notes" value="DEPT"  required>
+                </div>
+                <div>
+                    <button type="submit">Assign Stationary</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="homecon" onclick="window.location.href='/adminlogin/'">
+        <span><i class='bx bxs-home'></i></box-icon></span>
+    </div>
+    <footer> 
+        <div class="footer">
+                <div class="Logos">
+                    <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                    <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                    <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                    <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                    <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+        
+                </div>
+        <div class="prepare">
+        
+            <p >
+                <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+            </p>
+        </div>
+        </div>
+    </footer>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    {% endblock body %}
+    <div class="toast" id="toastMessage"></div>
+
+    <script>
+        function toggleDropdown() {
+            const dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.classList.toggle('show-dropdown');
+        }
+    
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-button')) {
+                const dropdowns = document.getElementsByClassName('dropdown-content');
+                for (let i = 0; i < dropdowns.length; i++) {
+                    const openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show-dropdown')) {
+                        openDropdown.classList.remove('show-dropdown');
+                    }
+                }
+            }
+        };
+        function showToast(message, duration) {
+            const toast = document.getElementById('toastMessage');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(function() {
+                toast.classList.remove('show');
+            }, duration);
+        }
+
+        {% if messages %}
+        {% for message in messages %}
+            showToast("{{ message }}", 3000); 
+        {% endfor %}
+        {% endif %}
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        function toggleDropdown() {
+            const dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.classList.toggle('show-dropdown');
+        }
+    
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-button')) {
+                const dropdowns = document.getElementsByClassName('dropdown-content');
+                for (let i = 0; i < dropdowns.length; i++) {
+                    const openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show-dropdown')) {
+                        openDropdown.classList.remove('show-dropdown');
+                    }
+                }
+            }
+        };
+        function loadDropdownState(selectElement, requestId) {
+            const selectedStatus = localStorage.getItem(`dropdown_${requestId}`);
+            if (selectedStatus) {
+                selectElement.value = selectedStatus;
+            }
+        }
+
+        function saveDropdownState(selectElement, requestId) {
+            const selectedStatus = selectElement.value;
+            localStorage.setItem(`dropdown_${requestId}`, selectedStatus);
+           
+        }
+
+        window.onload = function () {
+            const selectElements = document.querySelectorAll('select[name="status"]');
+           selectElements.forEach((selectElement) => {
+            const requestId = selectElement.getAttribute('data-request-id');
+           loadDropdownState(selectElement, requestId);
+           });
+        };
+        
+        function filterRequests() {
+            const statusFilter = document.getElementById('status-filter').value;
+            const requestRows = document.querySelectorAll('#request-table-body tr');
+    
+            requestRows.forEach((row) => {
+                const statusCell = row.querySelector('.fulfilled-dropdown select').value;
+                if (statusFilter === 'all' || statusFilter === statusCell) {
+                    row.style.display = 'table-row';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        filterRequests();
+    </script>
+</body>
+</html>

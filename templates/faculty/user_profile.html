@@ -1,0 +1,317 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Faculty Requests{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar img {
+            height: 100px;
+            margin-left: 20px; 
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+            background-color: #f1e1e2;
+            
+        }
+        .footer a{
+            color: #590707;
+        }
+        .Logos img {
+            width: 190px; 
+            height: 190px; 
+        }
+        .Logos{
+            margin: 10px;
+            align-items: center;
+            vertical-align: middle;
+        
+        }
+        
+        .footer p{
+            color: #b7202e;
+        }
+        
+        .social-links{
+            margin: 10px;
+            color:#910118;
+        }
+        .social-links i{
+            color:#910118;
+            margin-right:10px;
+            font-size:40px;
+        }
+        
+        .prepare{
+            margin: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #910118;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        tr:hover {
+            background-color: #fafafa;
+        }
+
+        .container {
+            border-left: 5px solid #910118;
+            border-radius: 10px;
+            max-width: 600px;
+            justify-content: center;
+            margin: 20px auto; 
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        h1 {
+            color: #910118;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #910118;
+            font-size: 32px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .note {
+            position: absolute;
+            border-radius: 15px;
+            max-width: 300px;
+            top: 0;
+            right: 0;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #333;
+            margin-top:225px;
+            margin-right: 130px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border-left: 5px solid #910118;
+            border-radius: 10px;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+        }
+        .btn {
+            display: block;
+            justify-content: center;
+            width: 15%;
+            padding: 7px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 25px;
+            margin-left: 0px;
+        }
+        .btn1 {
+            display: block;
+            justify-content: center;
+            width: 25%;
+            padding: 5px;
+            font-size: 15px;
+            color: #fff;
+            background-color: #910118;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 25px;
+            margin-left: 0px;
+        }
+
+        .btn-primary {
+            background-color: #910118;
+        }
+
+        .container p{
+            font-size: 20px;
+        }
+        .container h1{
+            font-size: 40px;
+        }
+        .reset-button {
+            background-color: #910118;
+            color: #fff;
+            border: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .reset-button:hover {
+            background-color: #910118;
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 25px;
+            margin-left: 0px;
+        }
+        .about-us-option {
+            margin-right: 950px;
+            margin-top: 60px;
+            color: #4a4a4a;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    {% block body %}
+    {% if user.is_authenticated %}
+    <div class="navbar">
+        <img src="{% static 'images/logo.png' %}" alt="Navbar Image">
+        <a href="/logout/" style="color:#910118; font-size: 25px; margin-right: auto;"><i class='bx bx-exit'></i></a>
+        <h2>User Profile</h2>
+    </div>
+    <div class="container">
+        <h1>Hello, {{ user_profile.get_full_name }}</h1>
+        <p><strong>Full Name:</strong> {{ user_profile.get_full_name }}</p>
+        <p><strong>Email:</strong> {{ user_profile.email }}</p>
+        <p><strong>Role:</strong> {{ user_profile.role }}</p>
+        <p><strong>Branch:</strong> {{ user_profile.branch }}</p>
+        <div class="button-group">
+            <button class="btn1 btn-primary" onclick="window.location.href='/resetpassword/'">Reset Password</button>
+            <button class="btn1 btn-primary" onclick="window.location.href='/view_my_requests/'">My Requests</button>
+            <button class="btn1 btn-primary" onclick="window.location.href='/myassignments/'">Assigned</button>
+            <button class="btn btn-primary" onclick="goBack()">Back</button>
+        </div>
+    </div>
+    
+    <footer> 
+        <div class="footer">
+                <div class="Logos">
+                    <a href="https://kjsit.somaiya.edu.in/en" target="_blank"><img src="{% static 'images/somlogo.png' %}" alt="Somaiya Logo"></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/kjsieitofficial" target="_blank" class="facebook"><i class='bx bxl-facebook-square' alt="Facbook"></i></a>
+                    <a href="https://www.instagram.com/kjsit_official/"  target="_blank" class="instagram" ><i class='bx bxl-instagram' alt="insta"></i></a>
+                    <a href="https://twitter.com/kjsieit1" target="_blank" class="twitter"><i class='bx bxl-twitter' alt="twitter"></i></a>        
+                    <a href="https://www.youtube.com/kjsieitofficial" target="_blank" class="google-plus"><i class='bx bxl-youtube' alt="youtube" ></i></a>
+                    <a href="https://www.linkedin.com/in/kjsieit/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' alt="linkedin" ></i></a>
+        
+                </div>
+        <div class="prepare">
+        
+            <p >
+                <b>Prepared By:<br> Department of Artificial Intelligence and Data Science<br>
+                Guided By:<br>  Dr. Milind Nemade,<br> Prof. Vidya Sagvekar<br>
+                Developer: <a href="https://www.linkedin.com/in/tanushree-hajare-4a5182237" target="_blank">Tanushree Hajare</a></b>
+            </p>
+        </div>
+        </div>
+    </footer>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    {% endblock body %}
+    <div class="toast" id="toastMessage"></div>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        function toggleDropdown() {
+            const dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.classList.toggle('show-dropdown');
+        }
+    
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-button')) {
+                const dropdowns = document.getElementsByClassName('dropdown-content');
+                for (let i = 0; i < dropdowns.length; i++) {
+                    const openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show-dropdown')) {
+                        openDropdown.classList.remove('show-dropdown');
+                    }
+                }
+            }
+        };
+        function showToast(message, duration) {
+            const toast = document.getElementById('toastMessage');
+            toast.textContent = message;
+            toast.classList.add('show');
+
+            setTimeout(function() {
+                toast.classList.remove('show');
+            }, duration);
+        }
+        
+        const showPasswordCheckbox = document.getElementById('showPassword');
+        const passwordInput = document.getElementById('password');
+
+        showPasswordCheckbox.addEventListener('change', function() {
+            if (this.checked) {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+        
+        function goBack() {
+            window.history.back();
+        }
+        
+        
+        {% if messages %}
+        {% for message in messages %}
+            showToast("{{ message }}", 3000); 
+        {% endfor %}
+        {% endif %}
+    </script>
+</body>
+</html>
